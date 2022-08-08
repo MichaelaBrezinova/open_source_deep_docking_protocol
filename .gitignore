@@ -1,0 +1,5 @@
+test_scripts_DELETE_LATER
+extraction_outputs/conformations_smiles_iteration_1/
+extraction_outputs/conformations_smiles_iteration_2/
+docking_optimization_experiments/random_compound_sample_100/*.pdbqt
+docking_optimization_experiments/output_run_compare_runtime_vina/*.pdbqt

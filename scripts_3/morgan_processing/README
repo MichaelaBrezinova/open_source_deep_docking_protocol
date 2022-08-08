@@ -1,0 +1,1 @@
+Scripts to process downloaded SDF and use their smiles and morgan fingerprints. Used ONLY when phase 2 is downloading sdfs from ZINC database instead of conformer generation.

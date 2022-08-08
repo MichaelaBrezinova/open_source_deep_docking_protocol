@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH --account VENDRUSCOLO-SL3-CPU
+#SBATCH --partition skylake
+#SBATCH --nodes 1
+
+python test_print_numbers.py -file_num 10
