@@ -1,9 +1,0 @@
-Directory containing test scripts to see if job scheduling works, including an individual script or script that schedules multiple jobs. Feel free to change parameters or the code.
-
-Once a job is run, you can see information about it in 
-
-```
-scontrol show job <job_id>
-```
-
-A log output of the job should be under slurm-<job_id>.out

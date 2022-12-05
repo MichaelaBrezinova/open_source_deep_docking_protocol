@@ -3,3 +3,5 @@ extraction_outputs/conformations_smiles_iteration_1/
 extraction_outputs/conformations_smiles_iteration_2/
 docking_optimization_experiments/
 results/
+test_print_numbers/
+SDF_docking_checks/
