@@ -5,3 +5,9 @@ docking_optimization_experiments/
 results/
 test_print_numbers/
 SDF_docking_checks/
+test.ipynb
+Testing.ipynb
+docking_run_jobs_train_iteration_1.log
+docking_run_jobs_valid_iteration_1.log
+output_phase_3_vina.txt
+Analysis-Copy1.ipynb
