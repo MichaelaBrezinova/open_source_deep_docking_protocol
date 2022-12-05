@@ -45,6 +45,6 @@ do
         tmp="$batch"
         trimmed_batch="${tmp%/}"
         echo "Processing ${trimmed_batch} with output directory ${path_to_docked}/${directory_set_name}" 
-        sbatch --account $account_name --partition $partition scripts_2/run_batch_docking.sh ${trimmed_batch} $receptor $configuration_file ${path_to_docked}/${directory_set_name} $vina_path "$use_vina_gpu"
+        sbatch --account $account_name --partition $partition scripts_3/run_batch_docking.sh ${trimmed_batch} $receptor $configuration_file ${path_to_docked}/${directory_set_name} $vina_path "$use_vina_gpu"
     done
 done

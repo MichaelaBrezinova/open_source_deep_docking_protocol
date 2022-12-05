@@ -35,20 +35,35 @@ for file_number in file_numbers:
                                 names=['to_remove', 'zinc_id', 'morgan'])
     fingerprints_file.drop('to_remove', inplace=True, axis=1)
     
-    # remove duplicates
-    smiles_file_filtered = smiles_file.drop_duplicates(subset="zinc_id")
-    fingerprints_file_filtered  = fingerprints_file.drop_duplicates(subset="zinc_id")
+    if(smiles_file.shape[0]>0):
+        # Remove _{number} extension for compounds that are only once in the database
+        smiles_file["short_zinc_id"] = smiles_file["zinc_id"].str.split('_', expand=True).iloc[:, 0]
+        smiles_file["clean_zinc_id"] = smiles_file["zinc_id"]
+        smiles_only_once= [not elem for elem in smiles_file.duplicated(subset="short_zinc_id", keep=False)]
+        smiles_file.loc[smiles_only_once, 'clean_zinc_id'] = smiles_file.loc[smiles_only_once, 
+                                                                             'clean_zinc_id'].str.split('_',expand=True).iloc[:, 0]
+
+        # remove duplicates
+        smiles_file_filtered = smiles_file.drop_duplicates(subset="clean_zinc_id")
+        fingerprints_file_filtered  = fingerprints_file.drop_duplicates(subset="zinc_id")
+
+        # merge the two dataframes on ZINC ID
+        merged_result = smiles_file_filtered.merge(fingerprints_file_filtered, on='zinc_id')
+        
+        # retrieve back new smiles and fingerprints dataframes
+        new_smiles_file = merged_result.drop(['morgan','zinc_id','short_zinc_id'], axis=1)
+        new_fingerprints_file = merged_result.drop(['smiles','zinc_id','short_zinc_id'], axis=1)
+    else:
+        # remove duplicates
+        smiles_file_filtered = smiles_file.drop_duplicates(subset="zinc_id")
+        fingerprints_file_filtered  = fingerprints_file.drop_duplicates(subset="zinc_id")
+        
+        # merge the two dataframes on ZINC ID
+        merged_result = smiles_file_filtered.merge(fingerprints_file_filtered, on='zinc_id')
     
-    # merge the two dataframes on ZINC ID
-    merged_result = smiles_file_filtered.merge(fingerprints_file_filtered, on='zinc_id')
-    
-#     # Uncomment if only one version of molecule is to be used 
-#     merged_result['zinc_id'] = merged_result['zinc_id'].apply(lambda x: x.split("_")[0])
-#     merged_result = merged_result.drop_duplicates(subset="zinc_id")
-    
-    # retrieve back new smiles and fingerprints dataframes
-    new_smiles_file = merged_result.drop(['morgan'], axis=1)
-    new_fingerprints_file = merged_result.drop(['smiles'], axis=1)
+        # retrieve back new smiles and fingerprints dataframes
+        new_smiles_file = merged_result.drop(['morgan'], axis=1)
+        new_fingerprints_file = merged_result.drop(['smiles'], axis=1)
     
     # save new smiles and fingerprints dataframes
     new_smiles_file.to_csv(args.output_directory_smiles + "/smiles_all_" + "{0:0=2d}".format(file_number) + ".txt", 

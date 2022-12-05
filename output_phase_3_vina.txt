@@ -1,0 +1,901 @@
+Processing PDBQTs in test
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_0 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566604
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_1 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566605
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_10 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566606
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_100 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566607
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_101 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566608
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_102 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566609
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_103 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566610
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_104 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566611
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_105 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566612
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_106 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566613
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_107 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566614
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_108 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566615
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_109 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566616
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_11 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566617
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_110 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566618
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_111 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566619
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_112 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566620
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_113 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566621
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_114 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566622
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_115 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566623
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_116 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566624
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_117 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566625
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_118 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566626
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_119 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566627
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_12 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566628
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_120 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566629
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_121 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566630
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_122 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566631
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_123 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566632
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_124 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566633
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_125 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566634
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_126 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566635
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_127 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566636
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_128 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566637
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_129 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566638
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_13 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566639
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_130 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566640
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_131 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566641
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_132 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566642
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_133 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566643
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_134 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566644
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_135 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566645
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_136 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566646
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_137 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566647
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_138 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566648
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_139 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566649
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_14 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566650
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_140 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566651
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_141 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566652
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_142 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566653
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_143 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566654
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_144 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566655
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_145 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566656
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_146 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566657
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_147 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566658
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_148 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566659
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_149 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566660
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_15 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566661
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_150 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566662
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_151 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566663
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_152 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566664
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_153 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566665
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_154 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566666
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_155 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566667
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_156 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566668
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_157 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566669
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_158 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566670
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_159 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566671
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_16 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566672
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_160 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566673
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_161 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566674
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_162 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566675
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_163 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566676
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_164 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566677
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_165 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566678
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_166 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566679
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_167 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566680
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_168 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566681
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_169 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566682
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_17 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566683
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_170 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566684
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_171 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566685
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_172 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566686
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_173 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566687
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_174 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566688
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_175 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566689
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_176 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566690
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_177 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566691
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_178 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566692
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_179 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566693
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_18 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566694
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_180 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566695
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_181 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566696
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_182 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566697
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_183 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566698
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_184 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566699
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_185 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566700
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_186 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566701
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_187 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566702
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_188 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566703
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_189 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566704
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_19 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566705
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_190 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566706
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_191 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566707
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_192 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566708
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_193 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566709
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_194 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566710
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_195 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566711
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_196 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566712
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_197 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566713
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_198 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566714
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_199 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566715
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_2 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566716
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_20 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566717
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_200 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566718
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_201 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566719
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_202 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566720
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_203 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566721
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_204 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566722
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_205 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566723
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_206 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566724
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_207 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566725
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_208 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566726
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_209 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566727
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_21 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566728
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_210 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566729
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_211 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566730
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_212 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566731
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_213 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566732
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_214 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566733
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_215 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566734
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_216 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566735
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_217 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566736
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_218 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566737
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_219 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566738
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_22 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566739
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_220 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566740
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_221 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566741
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_222 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566742
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_223 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566743
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_224 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566744
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_225 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566745
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_226 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566746
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_227 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566747
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_228 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566748
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_229 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566749
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_23 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566750
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_230 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566751
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_231 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566752
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_232 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566753
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_233 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566754
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_234 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566755
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_235 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566756
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_236 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566757
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_237 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566758
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_238 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566759
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_239 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566760
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_24 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566761
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_240 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566762
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_241 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566763
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_242 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566764
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_243 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566765
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_244 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566766
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_245 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566767
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_246 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566768
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_247 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566769
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_248 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566770
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_249 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566771
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_25 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566772
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_250 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566773
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_251 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566774
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_252 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566775
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_253 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566776
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_254 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566777
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_255 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566778
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_256 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566779
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_257 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566780
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_258 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566781
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_259 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566782
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_26 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566783
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_260 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566784
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_261 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566785
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_262 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566786
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_263 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566787
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_264 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566788
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_265 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566789
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_266 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566790
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_267 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566791
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_268 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566792
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_269 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566793
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_27 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566794
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_270 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566795
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_271 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566796
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_272 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566797
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_273 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566798
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_274 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566799
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_275 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566800
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_276 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566801
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_277 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566802
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_278 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566803
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_279 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566804
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_28 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566805
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_280 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566806
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_281 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566807
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_282 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566808
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_283 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566809
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_284 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566810
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_285 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566811
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_286 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566812
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_287 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566813
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_288 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566814
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_289 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566815
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_29 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566816
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_290 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566817
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_291 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566818
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_292 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566819
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_293 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566820
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_294 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566821
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_295 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566822
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_296 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566823
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_297 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566824
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_298 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566825
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_299 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566826
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_3 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566827
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_30 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566828
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_300 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566829
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_301 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566830
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_302 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566831
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_303 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566832
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_304 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566833
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_305 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566834
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_306 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566835
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_307 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566836
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_308 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566837
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_309 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566838
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_31 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566839
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_310 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566840
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_311 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566841
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_312 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566842
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_313 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566843
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_314 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566844
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_315 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566845
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_316 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566846
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_317 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566847
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_318 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566848
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_319 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566849
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_32 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566850
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_320 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566851
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_321 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566852
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_322 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566853
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_323 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566854
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_324 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566855
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_325 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566856
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_326 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566857
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_327 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566858
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_328 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566859
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_329 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566860
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_33 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566861
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_330 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566862
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_331 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566863
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_332 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566864
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_333 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566865
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_334 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566866
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_335 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566867
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_336 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566868
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_337 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566869
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_338 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566870
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_339 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566871
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_34 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566872
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_340 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566873
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_341 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566874
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_342 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566875
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_343 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566876
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_344 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566877
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_345 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566878
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_346 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566879
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_347 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566880
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_348 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566881
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_349 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566882
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_35 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566883
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_350 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566884
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_351 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566885
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_352 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566886
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_353 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566887
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_354 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566888
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_355 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566889
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_356 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566890
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_357 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566891
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_358 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566892
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_359 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566893
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_36 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566894
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_360 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566895
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_361 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566896
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_362 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566897
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_363 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566898
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_364 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566899
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_365 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566900
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_366 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566901
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_367 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566902
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_368 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566903
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_369 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566904
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_37 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566905
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_370 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566906
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_371 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566907
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_372 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566908
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_373 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566909
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_374 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566910
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_375 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566911
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_376 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566912
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_377 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566913
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_378 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566914
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_379 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566915
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_38 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566916
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_380 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566917
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_381 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566918
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_382 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566919
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_383 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566920
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_384 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566921
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_385 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566922
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_386 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566923
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_387 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566924
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_388 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566925
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_389 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566926
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_39 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566927
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_390 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566928
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_391 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566929
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_392 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566930
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_393 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566931
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_394 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566932
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_395 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566933
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_396 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566934
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_397 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566935
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_398 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566936
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_399 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566937
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_4 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566938
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_40 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566939
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_400 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566940
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_401 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566941
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_402 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566942
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_403 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566943
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_404 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566944
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_405 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566945
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_406 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566946
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_407 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566947
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_408 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566948
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_409 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566949
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_41 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566950
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_410 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566951
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_411 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566952
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_412 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566953
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_413 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566954
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_414 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566955
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_415 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566956
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_416 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566957
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_417 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566958
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_418 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566959
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_419 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566960
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_42 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566961
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_420 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566962
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_421 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566963
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_422 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566964
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_423 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566965
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_424 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566966
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_425 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566967
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_426 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566968
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_427 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566969
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_428 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566970
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_429 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566971
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_43 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566972
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_430 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566973
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_431 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566974
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_432 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566975
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_433 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566976
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_434 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566977
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_435 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566978
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_436 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566979
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_437 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566980
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_438 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566981
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_439 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566982
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_44 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566983
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_440 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566984
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_441 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566985
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_442 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566986
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_443 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566987
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_444 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566988
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_445 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566989
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_446 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566990
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_447 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566991
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_448 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566992
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_449 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566993
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_45 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566994
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_46 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566995
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_47 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566996
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_48 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566997
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_49 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566998
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_5 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4566999
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_50 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567000
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_51 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567001
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_52 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567002
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_53 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567003
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_54 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567004
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_55 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567005
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_56 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567006
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_57 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567007
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_58 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567008
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_59 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567009
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_6 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567010
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_60 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567011
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_61 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567012
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_62 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567013
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_63 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567014
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_64 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567015
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_65 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567016
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_66 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567017
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_67 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567018
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_68 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567019
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_69 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567020
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_7 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567021
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_70 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567022
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_71 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567023
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_72 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567024
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_73 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567025
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_74 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567026
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_75 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567027
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_76 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567028
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_77 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567029
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_78 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567030
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_79 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567031
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_8 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567032
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_80 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567033
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_81 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567034
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_82 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567035
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_83 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567036
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_84 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567037
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_85 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567038
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_86 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567039
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_87 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567040
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_88 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567041
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_89 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567042
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_9 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567043
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_90 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567044
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_91 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567045
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_92 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567046
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_93 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567047
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_94 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567048
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_95 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567049
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_96 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567050
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_97 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567051
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_98 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567052
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/pdbqt/test/chunk_99 with output directory /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_1/docked/test
+Submitted batch job 4567053

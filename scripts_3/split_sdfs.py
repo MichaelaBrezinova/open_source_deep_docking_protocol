@@ -24,7 +24,7 @@ sdf_strings =  [one_part+split_symbol for one_part in content.split(split_symbol
 ZINC_ids = []
 for sdf_string in sdf_strings:
     # Find ZINC ID in the string. 
-    zinc_id = re.search("ZINC\d+", sdf_string).group()
+    zinc_id = re.search("ZINC\d+(_\d+)?", sdf_string).group()
     ZINC_ids.append(zinc_id)
 
 # Store each sdf string into a separate SDF file. File is named by ZINC ID of compound the SDF represents.

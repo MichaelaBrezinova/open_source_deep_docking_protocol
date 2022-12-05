@@ -63,9 +63,6 @@ gpu_part = str(io_args.gpu_part)
 env  = str(io_args.tensorflow_env)
 protein = str(io_args.file_path).split('/')[-1]
 
-print("MISKAFile path " + str(io_args.file_path))
-print("MISKAProtein: " + str(protein))
-
 num_molec = int(io_args.number_mol)
 
 percent_first_mols = float(io_args.percent_first_mols)/100
@@ -109,9 +106,9 @@ try:
 except OSError: # catching file exists error
     pass
 
-# # Clearing up space from previous iteration
-# for f in glob.glob(SAVE_PATH+'/iteration_'+str(n_it)+'/simple_job/*'):
-#     os.remove(f)
+# Clearing up space from previous iteration
+for f in glob.glob(SAVE_PATH+'/iteration_'+str(n_it)+'/simple_job/*'):
+    os.remove(f)
 
 scores_val = []
 with open(DATA_PATH+'/iteration_'+str(1)+'/validation_labels.txt','r') as ref:
@@ -150,9 +147,15 @@ cf_start = np.mean(scores_val)  # the mean of all the docking scores (labels) of
 t_good = len(scores_val)
 
 # we decrease the threshold value until we have our desired num of mol left.
-while t_good > good_mol: 
-    cf_start -= 0.005
+#while t_good > good_mol: 
+    # cf_start -= 0.005
+    # t_good = len(scores_val[scores_val<cf_start])
+    
+while t_good > (good_mol+20):      #CHANGED FOR VINA ONLY
+    cf_start -= 0.1     #CHANGED FOR VINA ONLY
     t_good = len(scores_val[scores_val<cf_start])
+
+t_good = len(scores_val[scores_val<cf_start])
 
 print('Threshold (cutoff):',cf_start)
 print('Molec under threshold:', t_good)
@@ -180,8 +183,8 @@ count = 1
 for i in range(len(all_hyperparas)):
     with open(SAVE_PATH+'/iteration_'+str(n_it)+'/simple_job/simple_job_'+str(count)+'.sh', 'w') as ref:
         ref.write('#!/bin/bash\n')
-        ref.write('#SBATCH --nodes=1\n')
         ref.write('#SBATCH --ntasks=1\n')
+        ref.write('#SBATCH --nodes=1\n')
         ref.write('#SBATCH --gres=gpu:1\n')
         ref.write('#SBATCH --cpus-per-task=1\n')
         ref.write('#SBATCH --job-name=phase_4\n')

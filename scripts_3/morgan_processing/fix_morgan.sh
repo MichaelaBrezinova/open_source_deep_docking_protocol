@@ -2,17 +2,23 @@
 
 path_to_iteration=$1
 
-# Extract smiles from SDFs
-# Valid set
-python scripts_3/extract_smiles_from_sdf.py -directory_to_process ${path_to_iteration}/pdbqt/valid -path_to_store ${path_to_iteration}/corrected_smiles
-# Train set
-python scripts_3/extract_smiles_from_sdf.py -directory_to_process ${path_to_iteration}/pdbqt/train -path_to_store ${path_to_iteration}/corrected_smiles
-# Test set
-python scripts_3/extract_smiles_from_sdf.py -directory_to_process ${path_to_iteration}/pdbqt/train -path_to_store ${path_to_iteration}/corrected_smiles
+# # Extract smiles from SDFs
+# echo "processing directories and extracting smiles"
+# # Valid set
+# echo "processing valid"
+# python scripts_3/extract_smiles_from_sdf.py -directory_to_process ${path_to_iteration}/pdbqt/valid -path_to_store ${path_to_iteration}/corrected_smile
+# # Train set
+# echo "processing train"
+# python scripts_3/extract_smiles_from_sdf.py -directory_to_process ${path_to_iteration}/pdbqt/train -path_to_store ${path_to_iteration}/corrected_smile
+# # Test set
+# echo "processing test"
+# python scripts_3/extract_smiles_from_sdf.py -directory_to_process ${path_to_iteration}/pdbqt/test -path_to_store ${path_to_iteration}/corrected_smile
 
-# Prepare relevant morgan fingerprints
-python utilities/morgan_fp.py -sfp ${path_to_iteration}/corrected_smile -fn ${path_to_iteration}/corrected_morgan  -tp 1
+# echo "preparing fingerprints"
+# # Prepare relevant morgan fingerprints
+# python utilities/morgan_fp.py -sfp ${path_to_iteration}/corrected_smile -fn ${path_to_iteration}/corrected_morgan  -tp 1
 
+echo "moving and renaming directories"
 mv ${path_to_iteration}/smile ${path_to_iteration}/old_smile || { echo 'Trouble renaming' ; exit 1; }
 mv ${path_to_iteration}/morgan ${path_to_iteration}/old_morgan || { echo 'Trouble renaming' ; exit 1; }
 

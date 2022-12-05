@@ -37,16 +37,8 @@ nhp=`sed -n '7p' $3/$4/logs.txt`    # number of hyperparameters
 sof=`sed -n '6p' $3/$4/logs.txt`    # The docking software used
 num_molec=`sed -n '8p' $3/$4/logs.txt` # Number of molecules in testing/validation set
 
-echo "writing jobs"
-python jobid_writer.py -pt $protein -fp $file_path -n_it $current_iteration -jid $SLURM_JOB_NAME -jn $SLURM_JOB_NAME.txt
-
-# Extract labels from Vina docking
-# TRAIN SET
-python scripts_3/extract_labels_vina.py -directory_to_process $file_path/$protein/iteration_${current_iteration}/docked/train -path_to_store $file_path/$protein/iteration_${current_iteration}
-# TEST SET
-python scripts_3/extract_labels_vina.py -directory_to_process $file_path/$protein/iteration_${current_iteration}/docked/test -path_to_store $file_path/$protein/iteration_${current_iteration}
-# VALIDATION SET
-python scripts_3/extract_labels_vina.py -directory_to_process $file_path/$protein/iteration_${current_iteration}/docked/valid -path_to_store $file_path/$protein/iteration_${current_iteration}
+# echo "writing jobs"
+# python jobid_writer.py -pt $protein -fp $file_path -n_it $current_iteration -jid $SLURM_JOB_NAME -jn $SLURM_JOB_NAME.txt
 
 # Check if this iteration is the last
 if [ ${desired_number_of_iterations} = ${current_iteration} ]; then

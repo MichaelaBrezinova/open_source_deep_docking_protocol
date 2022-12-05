@@ -1,0 +1,110 @@
+#################################################################
+# If you used Vina-GPU in your work, please cite:               #
+#                                                               #
+#Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,               #
+#Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.         #
+#Accelerating AutoDock VINA with GPUs. ChemRxiv (2021).Print.   #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Output will be /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/SDF_docking_checks/ZINC000002443590_1_out.pdbqt
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 2016314112
+
+Platform: NVIDIA CUDA
+Device: NVIDIA A100-SXM4-80GB
+
+Build kernels from source
+OpenCL version: 3.0
+Search depth is set to 10
+Perform docking|=======                              |Perform docking|================done=================|
+GPU monte carlo runtime: 0.524 s
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.5      0.000      0.000
+   2         -4.3      3.707      4.655
+   3         -4.3      2.945      3.776
+   4         -4.3      3.820      6.819
+   5         -4.3      7.220      8.681
+Writing output ... done.
+Vina-GPU total runtime: 13.919 s
+#################################################################
+# If you used Vina-GPU in your work, please cite:               #
+#                                                               #
+#Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,               #
+#Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.         #
+#Accelerating AutoDock VINA with GPUs. ChemRxiv (2021).Print.   #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Output will be /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/SDF_docking_checks/ZINC000002443590_2_out.pdbqt
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 28584112
+
+Platform: NVIDIA CUDA
+Device: NVIDIA A100-SXM4-80GB
+
+Build kernels from source
+OpenCL version: 3.0
+Search depth is set to 10
+Perform docking|=======                              |Perform docking|================done=================|
+GPU monte carlo runtime: 0.436 s
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.8      0.000      0.000
+   2         -4.8      2.182      2.550
+   3         -4.7      3.850      9.078
+   4         -4.6      2.700      8.211
+   5         -4.6      3.116      8.425
+Writing output ... done.
+Vina-GPU total runtime: 8.341 s
+#################################################################
+# If you used Vina-GPU in your work, please cite:               #
+#                                                               #
+#Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,               #
+#Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.         #
+#Accelerating AutoDock VINA with GPUs. ChemRxiv (2021).Print.   #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Output will be /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/SDF_docking_checks/ZINC000002443590_3_out.pdbqt
+Reading input ... 
+
+Error: could not open "/home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/SDF_docking_checks/ZINC000002443590_3.pdbqt" for reading.

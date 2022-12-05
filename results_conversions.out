@@ -1,0 +1,1370 @@
+Processing SDFs in test_creation
+Processing chunk_aa
+Processing chunk_ab
+Processing chunk_ac
+Processing SDFs in test_download
+Processing chunk_0
+Processing chunk_100
+Processing chunk_101
+Processing chunk_102
+Processing chunk_103
+Processing chunk_104
+Processing chunk_105
+Processing chunk_106
+Processing chunk_107
+Processing chunk_108
+Processing chunk_109
+Processing chunk_10
+Processing chunk_110
+Processing chunk_111
+Processing chunk_112
+Processing chunk_113
+Processing chunk_114
+Processing chunk_115
+Processing chunk_116
+Processing chunk_117
+Processing chunk_118
+Processing chunk_119
+Processing chunk_11
+Processing chunk_120
+Processing chunk_121
+Processing chunk_122
+Processing chunk_123
+Processing chunk_124
+Processing chunk_125
+Processing chunk_126
+Processing chunk_127
+Processing chunk_128
+Processing chunk_129
+Traceback (most recent call last):
+  File "scripts_3/split_sdfs.py", line 27, in <module>
+    zinc_id = re.search("ZINC\d+(_\d+)?", sdf_string).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+Processing chunk_12
+Processing chunk_130
+Processing chunk_131
+Processing chunk_132
+Processing chunk_133
+Processing chunk_134
+Processing chunk_135
+Processing chunk_136
+Processing chunk_137
+Processing chunk_138
+Processing chunk_139
+Processing chunk_13
+Processing chunk_140
+Processing chunk_141
+Processing chunk_142
+Processing chunk_143
+Processing chunk_144
+Processing chunk_145
+Processing chunk_146
+Processing chunk_14
+Processing chunk_15
+Processing chunk_16
+Processing chunk_17
+Processing chunk_18
+Processing chunk_19
+Processing chunk_1
+Processing chunk_20
+Processing chunk_21
+Processing chunk_22
+Processing chunk_23
+Processing chunk_24
+Processing chunk_25
+Processing chunk_26
+Processing chunk_27
+Processing chunk_28
+Processing chunk_29
+Processing chunk_2
+Processing chunk_30
+Processing chunk_31
+Processing chunk_32
+Processing chunk_33
+Processing chunk_34
+Processing chunk_35
+Processing chunk_36
+Processing chunk_37
+Processing chunk_38
+Processing chunk_39
+Processing chunk_3
+Processing chunk_40
+Processing chunk_41
+Processing chunk_42
+Processing chunk_43
+Processing chunk_44
+Processing chunk_45
+Traceback (most recent call last):
+  File "scripts_3/split_sdfs.py", line 27, in <module>
+    zinc_id = re.search("ZINC\d+(_\d+)?", sdf_string).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+Processing chunk_46
+Processing chunk_47
+Processing chunk_48
+Processing chunk_49
+Processing chunk_4
+Processing chunk_50
+Processing chunk_51
+Processing chunk_52
+Processing chunk_53
+Processing chunk_54
+Processing chunk_55
+Processing chunk_56
+Processing chunk_57
+Processing chunk_58
+Processing chunk_59
+Processing chunk_5
+Processing chunk_60
+Processing chunk_61
+Processing chunk_62
+Processing chunk_63
+Processing chunk_64
+Processing chunk_65
+Processing chunk_66
+Processing chunk_67
+Processing chunk_68
+Processing chunk_69
+Processing chunk_6
+Processing chunk_70
+Processing chunk_71
+Processing chunk_72
+Processing chunk_73
+Processing chunk_74
+Processing chunk_75
+Processing chunk_76
+Processing chunk_77
+Processing chunk_78
+Processing chunk_79
+Processing chunk_7
+Processing chunk_80
+Processing chunk_81
+Processing chunk_82
+Processing chunk_83
+Processing chunk_84
+Processing chunk_85
+Processing chunk_86
+Processing chunk_87
+Processing chunk_88
+Processing chunk_89
+Processing chunk_8
+Processing chunk_90
+Processing chunk_91
+Processing chunk_92
+Processing chunk_93
+Processing chunk_94
+Processing chunk_95
+Processing chunk_96
+Processing chunk_97
+Processing chunk_98
+Processing chunk_99
+Processing chunk_9
+Processing SDFs in train_creation
+Processing chunk_aa
+Processing chunk_ab
+Processing chunk_ac
+Processing SDFs in train_download
+Processing chunk_0
+Processing chunk_100
+Processing chunk_101
+Processing chunk_102
+Processing chunk_103
+Processing chunk_104
+Processing chunk_105
+Processing chunk_106
+Processing chunk_107
+Processing chunk_108
+Processing chunk_109
+Processing chunk_10
+Processing chunk_110
+Processing chunk_111
+Processing chunk_112
+Processing chunk_113
+Processing chunk_114
+Processing chunk_115
+Processing chunk_116
+Processing chunk_117
+Processing chunk_118
+Processing chunk_119
+Processing chunk_11
+Processing chunk_120
+Processing chunk_121
+Processing chunk_122
+Processing chunk_123
+Processing chunk_124
+Processing chunk_125
+Processing chunk_126
+Processing chunk_127
+Processing chunk_128
+Processing chunk_129
+Processing chunk_12
+Processing chunk_130
+Processing chunk_131
+Processing chunk_132
+Processing chunk_133
+Processing chunk_134
+Processing chunk_135
+Processing chunk_136
+Processing chunk_137
+Processing chunk_138
+Processing chunk_139
+Processing chunk_13
+Processing chunk_140
+Processing chunk_141
+Processing chunk_142
+Processing chunk_143
+Processing chunk_144
+Processing chunk_145
+Processing chunk_146
+Processing chunk_14
+Processing chunk_15
+Processing chunk_16
+Processing chunk_17
+Processing chunk_18
+Processing chunk_19
+Processing chunk_1
+Processing chunk_20
+Processing chunk_21
+Processing chunk_22
+Processing chunk_23
+Processing chunk_24
+Processing chunk_25
+Processing chunk_26
+Processing chunk_27
+Processing chunk_28
+Processing chunk_29
+Processing chunk_2
+Processing chunk_30
+Processing chunk_31
+Processing chunk_32
+Processing chunk_33
+Processing chunk_34
+Processing chunk_35
+Processing chunk_36
+Processing chunk_37
+Processing chunk_38
+Processing chunk_39
+Processing chunk_3
+Processing chunk_40
+Processing chunk_41
+Processing chunk_42
+Processing chunk_43
+Processing chunk_44
+Processing chunk_45
+Processing chunk_46
+Processing chunk_47
+Processing chunk_48
+Processing chunk_49
+Processing chunk_4
+Processing chunk_50
+Processing chunk_51
+Processing chunk_52
+Processing chunk_53
+Processing chunk_54
+Processing chunk_55
+Processing chunk_56
+Processing chunk_57
+Processing chunk_58
+Processing chunk_59
+Processing chunk_5
+Processing chunk_60
+Processing chunk_61
+Processing chunk_62
+Processing chunk_63
+Processing chunk_64
+Processing chunk_65
+Processing chunk_66
+Processing chunk_67
+Processing chunk_68
+Processing chunk_69
+Processing chunk_6
+Processing chunk_70
+Processing chunk_71
+Processing chunk_72
+Processing chunk_73
+Processing chunk_74
+Processing chunk_75
+Processing chunk_76
+Processing chunk_77
+Processing chunk_78
+Processing chunk_79
+Processing chunk_7
+Processing chunk_80
+Processing chunk_81
+Processing chunk_82
+Processing chunk_83
+Processing chunk_84
+Processing chunk_85
+Processing chunk_86
+Processing chunk_87
+Processing chunk_88
+Processing chunk_89
+Processing chunk_8
+Processing chunk_90
+Processing chunk_91
+Processing chunk_92
+Processing chunk_93
+Processing chunk_94
+Processing chunk_95
+Processing chunk_96
+Processing chunk_97
+Processing chunk_98
+Processing chunk_99
+Processing chunk_9
+Processing SDFs in valid_creation
+Processing chunk_aa
+Processing chunk_ab
+Processing chunk_ac
+Processing SDFs in valid_download
+Processing chunk_0
+Processing chunk_100
+Processing chunk_101
+Processing chunk_102
+Processing chunk_103
+Processing chunk_104
+Processing chunk_105
+Processing chunk_106
+Processing chunk_107
+Processing chunk_108
+Processing chunk_109
+Processing chunk_10
+Processing chunk_110
+Processing chunk_111
+Processing chunk_112
+Processing chunk_113
+Processing chunk_114
+Processing chunk_115
+Processing chunk_116
+Processing chunk_117
+Processing chunk_118
+Processing chunk_119
+Processing chunk_11
+Processing chunk_120
+Processing chunk_121
+Processing chunk_122
+Processing chunk_123
+Processing chunk_124
+Processing chunk_125
+Processing chunk_126
+Processing chunk_127
+Processing chunk_128
+Processing chunk_129
+Processing chunk_12
+Processing chunk_130
+Processing chunk_131
+Processing chunk_132
+Processing chunk_133
+Processing chunk_134
+Processing chunk_135
+Processing chunk_136
+Processing chunk_137
+Processing chunk_138
+Processing chunk_139
+Processing chunk_13
+Processing chunk_140
+Processing chunk_141
+Processing chunk_142
+Processing chunk_143
+Processing chunk_144
+Processing chunk_145
+Processing chunk_146
+Processing chunk_14
+Processing chunk_15
+Processing chunk_16
+Processing chunk_17
+Processing chunk_18
+Processing chunk_19
+Processing chunk_1
+Processing chunk_20
+Processing chunk_21
+Processing chunk_22
+Processing chunk_23
+Processing chunk_24
+Processing chunk_25
+Processing chunk_26
+Processing chunk_27
+Processing chunk_28
+Processing chunk_29
+Processing chunk_2
+Processing chunk_30
+Processing chunk_31
+Processing chunk_32
+Processing chunk_33
+Processing chunk_34
+Processing chunk_35
+Processing chunk_36
+Processing chunk_37
+Processing chunk_38
+Processing chunk_39
+Processing chunk_3
+Processing chunk_40
+Processing chunk_41
+Processing chunk_42
+Processing chunk_43
+Processing chunk_44
+Processing chunk_45
+Processing chunk_46
+Processing chunk_47
+Processing chunk_48
+Processing chunk_49
+Processing chunk_4
+Processing chunk_50
+Processing chunk_51
+Processing chunk_52
+Processing chunk_53
+Processing chunk_54
+Processing chunk_55
+Processing chunk_56
+Processing chunk_57
+Processing chunk_58
+Processing chunk_59
+Processing chunk_5
+Processing chunk_60
+Processing chunk_61
+Processing chunk_62
+Processing chunk_63
+Processing chunk_64
+Processing chunk_65
+Processing chunk_66
+Processing chunk_67
+Processing chunk_68
+Processing chunk_69
+Processing chunk_6
+Processing chunk_70
+Processing chunk_71
+Processing chunk_72
+Processing chunk_73
+Processing chunk_74
+Processing chunk_75
+Processing chunk_76
+Processing chunk_77
+Processing chunk_78
+Processing chunk_79
+Processing chunk_7
+Processing chunk_80
+Processing chunk_81
+Processing chunk_82
+Processing chunk_83
+Processing chunk_84
+Processing chunk_85
+Processing chunk_86
+Processing chunk_87
+Processing chunk_88
+Processing chunk_89
+Processing chunk_8
+Processing chunk_90
+Processing chunk_91
+Processing chunk_92
+Processing chunk_93
+Processing chunk_94
+Processing chunk_95
+Processing chunk_96
+Processing chunk_97
+Processing chunk_98
+Processing chunk_99
+Processing chunk_9
+Processing SDFs in test_creation
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_creation/chunk_aa/
+Submitted batch job 7759760
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_creation/chunk_ab/
+Submitted batch job 7759761
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_creation/chunk_ac/
+Submitted batch job 7759762
+Processing SDFs in test_download
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_0/
+Submitted batch job 7759763
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_1/
+Submitted batch job 7759764
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_10/
+Submitted batch job 7759765
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_100/
+Submitted batch job 7759766
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_101/
+Submitted batch job 7759767
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_102/
+Submitted batch job 7759768
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_103/
+Submitted batch job 7759769
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_104/
+Submitted batch job 7759770
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_105/
+Submitted batch job 7759771
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_106/
+Submitted batch job 7759772
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_107/
+Submitted batch job 7759773
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_108/
+Submitted batch job 7759774
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_109/
+Submitted batch job 7759775
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_11/
+Submitted batch job 7759776
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_110/
+Submitted batch job 7759777
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_111/
+Submitted batch job 7759778
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_112/
+Submitted batch job 7759779
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_113/
+Submitted batch job 7759780
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_114/
+Submitted batch job 7759781
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_115/
+Submitted batch job 7759782
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_116/
+Submitted batch job 7759783
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_117/
+Submitted batch job 7759784
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_118/
+Submitted batch job 7759785
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_119/
+Submitted batch job 7759786
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_12/
+Submitted batch job 7759787
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_120/
+Submitted batch job 7759788
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_121/
+Submitted batch job 7759789
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_122/
+Submitted batch job 7759790
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_123/
+Submitted batch job 7759791
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_124/
+Submitted batch job 7759792
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_125/
+Submitted batch job 7759793
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_126/
+Submitted batch job 7759794
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_127/
+Submitted batch job 7759795
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_128/
+Submitted batch job 7759796
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_129/
+Submitted batch job 7759797
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_13/
+Submitted batch job 7759798
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_130/
+Submitted batch job 7759799
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_131/
+Submitted batch job 7759800
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_132/
+Submitted batch job 7759801
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_133/
+Submitted batch job 7759802
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_134/
+Submitted batch job 7759803
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_135/
+Submitted batch job 7759804
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_136/
+Submitted batch job 7759805
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_137/
+Submitted batch job 7759806
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_138/
+Submitted batch job 7759807
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_139/
+Submitted batch job 7759808
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_14/
+Submitted batch job 7759809
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_140/
+Submitted batch job 7759810
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_141/
+Submitted batch job 7759811
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_142/
+Submitted batch job 7759812
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_143/
+Submitted batch job 7759813
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_144/
+Submitted batch job 7759814
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_145/
+Submitted batch job 7759815
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_146/
+Submitted batch job 7759816
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_15/
+Submitted batch job 7759817
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_16/
+Submitted batch job 7759818
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_17/
+Submitted batch job 7759819
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_18/
+Submitted batch job 7759820
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_19/
+Submitted batch job 7759821
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_2/
+Submitted batch job 7759822
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_20/
+Submitted batch job 7759823
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_21/
+Submitted batch job 7759824
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_22/
+Submitted batch job 7759825
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_23/
+Submitted batch job 7759826
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_24/
+Submitted batch job 7759827
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_25/
+Submitted batch job 7759828
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_26/
+Submitted batch job 7759829
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_27/
+Submitted batch job 7759830
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_28/
+Submitted batch job 7759831
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_29/
+Submitted batch job 7759832
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_3/
+Submitted batch job 7759833
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_30/
+Submitted batch job 7759834
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_31/
+Submitted batch job 7759835
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_32/
+Submitted batch job 7759836
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_33/
+Submitted batch job 7759837
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_34/
+Submitted batch job 7759838
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_35/
+Submitted batch job 7759839
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_36/
+Submitted batch job 7759840
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_37/
+Submitted batch job 7759841
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_38/
+Submitted batch job 7759842
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_39/
+Submitted batch job 7759843
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_4/
+Submitted batch job 7759844
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_40/
+Submitted batch job 7759845
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_41/
+Submitted batch job 7759846
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_42/
+Submitted batch job 7759847
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_43/
+Submitted batch job 7759848
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_44/
+Submitted batch job 7759849
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_45/
+Submitted batch job 7759850
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_46/
+Submitted batch job 7759851
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_47/
+Submitted batch job 7759852
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_48/
+Submitted batch job 7759853
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_49/
+Submitted batch job 7759854
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_5/
+Submitted batch job 7759855
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_50/
+Submitted batch job 7759856
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_51/
+Submitted batch job 7759857
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_52/
+Submitted batch job 7759858
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_53/
+Submitted batch job 7759859
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_54/
+Submitted batch job 7759860
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_55/
+Submitted batch job 7759861
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_56/
+Submitted batch job 7759862
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_57/
+Submitted batch job 7759863
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_58/
+Submitted batch job 7759864
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_59/
+Submitted batch job 7759865
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_6/
+Submitted batch job 7759866
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_60/
+Submitted batch job 7759867
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_61/
+Submitted batch job 7759868
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_62/
+Submitted batch job 7759869
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_63/
+Submitted batch job 7759870
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_64/
+Submitted batch job 7759871
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_65/
+Submitted batch job 7759872
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_66/
+Submitted batch job 7759873
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_67/
+Submitted batch job 7759874
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_68/
+Submitted batch job 7759875
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_69/
+Submitted batch job 7759876
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_7/
+Submitted batch job 7759877
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_70/
+Submitted batch job 7759878
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_71/
+Submitted batch job 7759879
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_72/
+Submitted batch job 7759880
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_73/
+Submitted batch job 7759881
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_74/
+Submitted batch job 7759882
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_75/
+Submitted batch job 7759883
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_76/
+Submitted batch job 7759884
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_77/
+Submitted batch job 7759885
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_78/
+Submitted batch job 7759886
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_79/
+Submitted batch job 7759887
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_8/
+Submitted batch job 7759888
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_80/
+Submitted batch job 7759889
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_81/
+Submitted batch job 7759890
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_82/
+Submitted batch job 7759891
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_83/
+Submitted batch job 7759892
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_84/
+Submitted batch job 7759893
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_85/
+Submitted batch job 7759894
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_86/
+Submitted batch job 7759895
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_87/
+Submitted batch job 7759896
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_88/
+Submitted batch job 7759897
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_89/
+Submitted batch job 7759898
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_9/
+Submitted batch job 7759899
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_90/
+Submitted batch job 7759900
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_91/
+Submitted batch job 7759901
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_92/
+Submitted batch job 7759902
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_93/
+Submitted batch job 7759903
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_94/
+Submitted batch job 7759904
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_95/
+Submitted batch job 7759905
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_96/
+Submitted batch job 7759906
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_97/
+Submitted batch job 7759907
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_98/
+Submitted batch job 7759908
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/test_download/chunk_99/
+Submitted batch job 7759909
+Processing SDFs in train_creation
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_creation/chunk_aa/
+Submitted batch job 7759910
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_creation/chunk_ab/
+Submitted batch job 7759911
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_creation/chunk_ac/
+Submitted batch job 7759912
+Processing SDFs in train_download
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_0/
+Submitted batch job 7759913
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_1/
+Submitted batch job 7759914
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_10/
+Submitted batch job 7759915
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_100/
+Submitted batch job 7759916
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_101/
+Submitted batch job 7759917
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_102/
+Submitted batch job 7759918
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_103/
+Submitted batch job 7759919
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_104/
+Submitted batch job 7759920
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_105/
+Submitted batch job 7759921
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_106/
+Submitted batch job 7759922
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_107/
+Submitted batch job 7759923
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_108/
+Submitted batch job 7759924
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_109/
+Submitted batch job 7759925
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_11/
+Submitted batch job 7759926
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_110/
+Submitted batch job 7759927
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_111/
+Submitted batch job 7759928
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_112/
+Submitted batch job 7759929
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_113/
+Submitted batch job 7759930
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_114/
+Submitted batch job 7759931
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_115/
+Submitted batch job 7759932
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_116/
+Submitted batch job 7759933
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_117/
+Submitted batch job 7759934
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_118/
+Submitted batch job 7759935
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_119/
+Submitted batch job 7759936
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_12/
+Submitted batch job 7759937
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_120/
+Submitted batch job 7759938
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_121/
+Submitted batch job 7759939
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_122/
+Submitted batch job 7759940
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_123/
+Submitted batch job 7759941
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_124/
+Submitted batch job 7759942
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_125/
+Submitted batch job 7759943
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_126/
+Submitted batch job 7759944
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_127/
+Submitted batch job 7759945
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_128/
+Submitted batch job 7759946
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_129/
+Submitted batch job 7759947
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_13/
+Submitted batch job 7759948
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_130/
+Submitted batch job 7759949
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_131/
+Submitted batch job 7759950
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_132/
+Submitted batch job 7759951
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_133/
+Submitted batch job 7759952
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_134/
+Submitted batch job 7759953
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_135/
+Submitted batch job 7759954
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_136/
+Submitted batch job 7759955
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_137/
+Submitted batch job 7759956
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_138/
+Submitted batch job 7759957
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_139/
+Submitted batch job 7759958
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_14/
+Submitted batch job 7759959
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_140/
+Submitted batch job 7759960
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_141/
+Submitted batch job 7759961
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_142/
+Submitted batch job 7759962
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_143/
+Submitted batch job 7759963
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_144/
+Submitted batch job 7759964
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_145/
+Submitted batch job 7759965
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_146/
+Submitted batch job 7759966
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_15/
+Submitted batch job 7759967
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_16/
+Submitted batch job 7759968
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_17/
+Submitted batch job 7759969
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_18/
+Submitted batch job 7759970
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_19/
+Submitted batch job 7759971
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_2/
+Submitted batch job 7759972
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_20/
+Submitted batch job 7759973
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_21/
+Submitted batch job 7759974
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_22/
+Submitted batch job 7759975
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_23/
+Submitted batch job 7759976
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_24/
+Submitted batch job 7759977
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_25/
+Submitted batch job 7759978
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_26/
+Submitted batch job 7759979
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_27/
+Submitted batch job 7759980
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_28/
+Submitted batch job 7759981
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_29/
+Submitted batch job 7759982
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_3/
+Submitted batch job 7759983
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_30/
+Submitted batch job 7759984
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_31/
+Submitted batch job 7759985
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_32/
+Submitted batch job 7759986
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_33/
+Submitted batch job 7759987
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_34/
+Submitted batch job 7759988
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_35/
+Submitted batch job 7759989
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_36/
+Submitted batch job 7759990
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_37/
+Submitted batch job 7759991
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_38/
+Submitted batch job 7759992
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_39/
+Submitted batch job 7759993
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_4/
+Submitted batch job 7759994
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_40/
+Submitted batch job 7759995
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_41/
+Submitted batch job 7759996
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_42/
+Submitted batch job 7759997
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_43/
+Submitted batch job 7759998
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_44/
+Submitted batch job 7759999
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_45/
+Submitted batch job 7760000
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_46/
+Submitted batch job 7760001
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_47/
+Submitted batch job 7760002
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_48/
+Submitted batch job 7760003
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_49/
+Submitted batch job 7760004
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_5/
+Submitted batch job 7760005
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_50/
+Submitted batch job 7760006
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_51/
+Submitted batch job 7760007
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_52/
+Submitted batch job 7760008
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_53/
+Submitted batch job 7760009
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_54/
+Submitted batch job 7760010
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_55/
+Submitted batch job 7760011
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_56/
+Submitted batch job 7760012
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_57/
+Submitted batch job 7760013
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_58/
+Submitted batch job 7760014
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_59/
+Submitted batch job 7760015
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_6/
+Submitted batch job 7760016
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_60/
+Submitted batch job 7760017
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_61/
+Submitted batch job 7760018
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_62/
+Submitted batch job 7760019
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_63/
+Submitted batch job 7760020
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_64/
+Submitted batch job 7760021
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_65/
+Submitted batch job 7760022
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_66/
+Submitted batch job 7760023
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_67/
+Submitted batch job 7760024
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_68/
+Submitted batch job 7760025
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_69/
+Submitted batch job 7760026
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_7/
+Submitted batch job 7760027
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_70/
+Submitted batch job 7760028
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_71/
+Submitted batch job 7760029
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_72/
+Submitted batch job 7760030
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_73/
+Submitted batch job 7760031
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_74/
+Submitted batch job 7760032
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_75/
+Submitted batch job 7760033
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_76/
+Submitted batch job 7760034
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_77/
+Submitted batch job 7760035
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_78/
+Submitted batch job 7760036
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_79/
+Submitted batch job 7760037
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_8/
+Submitted batch job 7760038
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_80/
+Submitted batch job 7760039
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_81/
+Submitted batch job 7760040
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_82/
+Submitted batch job 7760041
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_83/
+Submitted batch job 7760042
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_84/
+Submitted batch job 7760043
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_85/
+Submitted batch job 7760044
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_86/
+Submitted batch job 7760045
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_87/
+Submitted batch job 7760046
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_88/
+Submitted batch job 7760047
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_89/
+Submitted batch job 7760048
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_9/
+Submitted batch job 7760049
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_90/
+Submitted batch job 7760050
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_91/
+Submitted batch job 7760051
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_92/
+Submitted batch job 7760052
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_93/
+Submitted batch job 7760053
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_94/
+Submitted batch job 7760054
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_95/
+Submitted batch job 7760055
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_96/
+Submitted batch job 7760056
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_97/
+Submitted batch job 7760057
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_98/
+Submitted batch job 7760058
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/train_download/chunk_99/
+Submitted batch job 7760059
+Processing SDFs in valid_creation
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_creation/chunk_aa/
+Submitted batch job 7760060
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_creation/chunk_ab/
+Submitted batch job 7760061
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_creation/chunk_ac/
+Submitted batch job 7760062
+Processing SDFs in valid_download
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_0/
+Submitted batch job 7760063
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_1/
+Submitted batch job 7760064
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_10/
+Submitted batch job 7760065
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_100/
+Submitted batch job 7760066
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_101/
+Submitted batch job 7760067
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_102/
+Submitted batch job 7760068
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_103/
+Submitted batch job 7760069
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_104/
+Submitted batch job 7760070
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_105/
+Submitted batch job 7760071
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_106/
+Submitted batch job 7760072
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_107/
+Submitted batch job 7760073
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_108/
+Submitted batch job 7760074
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_109/
+Submitted batch job 7760075
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_11/
+Submitted batch job 7760076
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_110/
+Submitted batch job 7760077
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_111/
+Submitted batch job 7760078
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_112/
+Submitted batch job 7760079
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_113/
+Submitted batch job 7760080
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_114/
+Submitted batch job 7760081
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_115/
+Submitted batch job 7760082
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_116/
+Submitted batch job 7760083
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_117/
+Submitted batch job 7760084
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_118/
+Submitted batch job 7760085
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_119/
+Submitted batch job 7760086
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_12/
+Submitted batch job 7760087
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_120/
+Submitted batch job 7760088
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_121/
+Submitted batch job 7760089
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_122/
+Submitted batch job 7760090
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_123/
+Submitted batch job 7760091
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_124/
+Submitted batch job 7760092
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_125/
+Submitted batch job 7760093
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_126/
+Submitted batch job 7760094
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_127/
+Submitted batch job 7760095
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_128/
+Submitted batch job 7760096
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_129/
+Submitted batch job 7760097
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_13/
+Submitted batch job 7760098
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_130/
+Submitted batch job 7760099
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_131/
+Submitted batch job 7760100
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_132/
+Submitted batch job 7760101
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_133/
+Submitted batch job 7760102
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_134/
+Submitted batch job 7760103
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_135/
+Submitted batch job 7760104
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_136/
+Submitted batch job 7760105
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_137/
+Submitted batch job 7760106
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_138/
+Submitted batch job 7760107
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_139/
+Submitted batch job 7760108
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_14/
+Submitted batch job 7760109
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_140/
+Submitted batch job 7760110
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_141/
+Submitted batch job 7760111
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_142/
+Submitted batch job 7760112
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_143/
+Submitted batch job 7760113
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_144/
+Submitted batch job 7760114
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_145/
+Submitted batch job 7760115
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_146/
+Submitted batch job 7760116
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_15/
+Submitted batch job 7760117
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_16/
+Submitted batch job 7760118
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_17/
+Submitted batch job 7760119
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_18/
+Submitted batch job 7760120
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_19/
+Submitted batch job 7760121
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_2/
+Submitted batch job 7760122
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_20/
+Submitted batch job 7760123
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_21/
+Submitted batch job 7760124
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_22/
+Submitted batch job 7760125
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_23/
+Submitted batch job 7760126
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_24/
+Submitted batch job 7760127
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_25/
+Submitted batch job 7760128
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_26/
+Submitted batch job 7760129
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_27/
+Submitted batch job 7760130
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_28/
+Submitted batch job 7760131
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_29/
+Submitted batch job 7760132
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_3/
+Submitted batch job 7760133
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_30/
+Submitted batch job 7760134
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_31/
+Submitted batch job 7760135
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_32/
+Submitted batch job 7760136
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_33/
+Submitted batch job 7760137
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_34/
+Submitted batch job 7760138
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_35/
+Submitted batch job 7760139
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_36/
+Submitted batch job 7760140
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_37/
+Submitted batch job 7760141
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_38/
+Submitted batch job 7760142
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_39/
+Submitted batch job 7760143
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_4/
+Submitted batch job 7760144
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_40/
+Submitted batch job 7760145
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_41/
+Submitted batch job 7760146
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_42/
+Submitted batch job 7760147
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_43/
+Submitted batch job 7760148
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_44/
+Submitted batch job 7760149
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_45/
+Submitted batch job 7760150
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_46/
+Submitted batch job 7760151
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_47/
+Submitted batch job 7760152
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_48/
+Submitted batch job 7760153
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_49/
+Submitted batch job 7760154
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_5/
+Submitted batch job 7760155
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_50/
+Submitted batch job 7760156
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_51/
+Submitted batch job 7760157
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_52/
+Submitted batch job 7760158
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_53/
+Submitted batch job 7760159
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_54/
+Submitted batch job 7760160
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_55/
+Submitted batch job 7760161
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_56/
+Submitted batch job 7760162
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_57/
+Submitted batch job 7760163
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_58/
+Submitted batch job 7760164
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_59/
+Submitted batch job 7760165
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_6/
+Submitted batch job 7760166
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_60/
+Submitted batch job 7760167
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_61/
+Submitted batch job 7760168
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_62/
+Submitted batch job 7760169
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_63/
+Submitted batch job 7760170
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_64/
+Submitted batch job 7760171
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_65/
+Submitted batch job 7760172
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_66/
+Submitted batch job 7760173
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_67/
+Submitted batch job 7760174
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_68/
+Submitted batch job 7760175
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_69/
+Submitted batch job 7760176
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_7/
+Submitted batch job 7760177
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_70/
+Submitted batch job 7760178
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_71/
+Submitted batch job 7760179
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_72/
+Submitted batch job 7760180
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_73/
+Submitted batch job 7760181
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_74/
+Submitted batch job 7760182
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_75/
+Submitted batch job 7760183
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_76/
+Submitted batch job 7760184
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_77/
+Submitted batch job 7760185
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_78/
+Submitted batch job 7760186
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_79/
+Submitted batch job 7760187
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_8/
+Submitted batch job 7760188
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_80/
+Submitted batch job 7760189
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_81/
+Submitted batch job 7760190
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_82/
+Submitted batch job 7760191
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_83/
+Submitted batch job 7760192
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_84/
+Submitted batch job 7760193
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_85/
+Submitted batch job 7760194
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_86/
+Submitted batch job 7760195
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_87/
+Submitted batch job 7760196
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_88/
+Submitted batch job 7760197
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_89/
+Submitted batch job 7760198
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_9/
+Submitted batch job 7760199
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_90/
+Submitted batch job 7760200
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_91/
+Submitted batch job 7760201
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_92/
+Submitted batch job 7760202
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_93/
+Submitted batch job 7760203
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_94/
+Submitted batch job 7760204
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_95/
+Submitted batch job 7760205
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_96/
+Submitted batch job 7760206
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_97/
+Submitted batch job 7760207
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_98/
+Submitted batch job 7760208
+Processing /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/results/abeta/iteration_2/pdbqt/valid_download/chunk_99/
+Submitted batch job 7760209

@@ -69,31 +69,36 @@ with open(args.file) as file:
                         filtered_lines.append(zinc_smile + " " + zinc_id)
             else:
                 print("Faulty SMILES encountered, trying to get smile from ZINC15")
-                # Try to get smile from ZINC 
-                alternative_zinc_smile = smilite.get_zinc_smile(clean_zinc_id, backend="zinc15")
-                if(alternative_zinc_smile):
-                    m = Chem.MolFromSmiles(alternative_zinc_smile)
-                    # If molecule is correct, calculate the properties and if they are within bounds, append
-                    # the molecule to the list
-                    if(m):
-                        if(args.use_only_molWt):
-                            # FILTERING BY MOLECULAR WEIGHT
-                            molWt = Descriptors.MolWt(m)
-                            if(molWt <= args.max_molWt):
-                                filtered_lines.append(zinc_smile + " " + zinc_id)
-                        else:
-                            # FILTERING BY MORE PROPERTIES
-                            logP = Descriptors.MolLogP(m)
-                            molWt = Descriptors.MolWt(m)
-                            TPSA = Descriptors.TPSA(m)
-                            HBD = Chem.rdMolDescriptors.CalcNumHBD(m)
-                            if(logP <= args.max_logP and molWt <= args.max_molWt 
-                               and TPSA >= args.min_TPSA and TPSA <= args.max_TPSA 
-                               and HBD <= args.max_HBD):
-                                filtered_lines.append(zinc_smile + " " + zinc_id)
+                
+                # Comment when you want to try with alternative ZNIC file
+                filtered_lines.append(zinc_smile + " " + zinc_id)
+                
+#                 # Uncomment when you want to try with alternative ZNIC file
+#                 # Try to get smile from ZINC 
+#                 alternative_zinc_smile = smilite.get_zinc_smile(clean_zinc_id, backend="zinc15")
+#                 if(alternative_zinc_smile):
+#                     m = Chem.MolFromSmiles(alternative_zinc_smile)
+#                     # If molecule is correct, calculate the properties and if they are within bounds, append
+#                     # the molecule to the list
+#                     if(m):
+#                         if(args.use_only_molWt):
+#                             # FILTERING BY MOLECULAR WEIGHT
+#                             molWt = Descriptors.MolWt(m)
+#                             if(molWt <= args.max_molWt):
+#                                 filtered_lines.append(zinc_smile + " " + zinc_id)
+#                         else:
+#                             # FILTERING BY MORE PROPERTIES
+#                             logP = Descriptors.MolLogP(m)
+#                             molWt = Descriptors.MolWt(m)
+#                             TPSA = Descriptors.TPSA(m)
+#                             HBD = Chem.rdMolDescriptors.CalcNumHBD(m)
+#                             if(logP <= args.max_logP and molWt <= args.max_molWt 
+#                                and TPSA >= args.min_TPSA and TPSA <= args.max_TPSA 
+#                                and HBD <= args.max_HBD):
+#                                 filtered_lines.append(zinc_smile + " " + zinc_id)
 
 # Write filtered lines to file
-with open(args.output_directory + "/filtered_" + args.file.rsplit('/', 1)[-1], 'w') as fp:
+with open(args.output_directory + "/" + args.file.rsplit('/', 1)[-1], 'w') as fp:
     for line in filtered_lines:
         # write each item on a new line
         fp.write("%s\n" % line)
