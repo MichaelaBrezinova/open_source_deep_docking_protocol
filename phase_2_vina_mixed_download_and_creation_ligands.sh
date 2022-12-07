@@ -46,7 +46,7 @@ do
 
    # Run separate download job for each batch of 1000
    for f in ${path_to_iteration}/${set_type}_set_scripts/*.sh;
-   do dos2unix $f;sbatch -N 1 -n 1 --time=00:10:00 --cpus-per-task=$n_cpus_per_node --account=$account_name --partition=$name_cpu_partition $f;
+   do dos2unix $f;sbatch -N 1 -n 1 --time=00:30:00 --cpus-per-task=$n_cpus_per_node --account=$account_name --partition=$name_cpu_partition $f;
    done
 done
 

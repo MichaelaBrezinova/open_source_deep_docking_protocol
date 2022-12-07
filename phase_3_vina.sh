@@ -1,5 +1,14 @@
 #!/bin/bash
 
+#SBATCH --cpus-per-task=1
+#SBATCH --account=VENDRUSCOLO-SL3-GPU
+#SBATCH --partition ampere
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --gres=gpu:1
+#SBATCH --job-name=phase_3
+#SBATCH --time=01:00:00
+
 # PARAMETERS
 current_iteration=$1
 path_project=$2

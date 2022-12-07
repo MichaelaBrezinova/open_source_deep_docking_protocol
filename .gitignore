@@ -11,3 +11,4 @@ docking_run_jobs_train_iteration_1.log
 docking_run_jobs_valid_iteration_1.log
 output_phase_3_vina.txt
 Analysis-Copy1.ipynb
+slurm-*

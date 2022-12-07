@@ -5,7 +5,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
-#SBATCH --time=08:00:00
+#SBATCH --time=10:00:00
 
 current_iteration=$1
 path_project=$2
@@ -38,8 +38,8 @@ echo $set_type
            filename="${full_filename%.*}"
            script_name=${set_type}_set_scripts/download_${filename}.sh
            echo "Retrying script ${script_name}"
-#            chmod u+x $script_name
-#            ./$script_name
+        #    chmod u+x $script_name
+        #    ./$script_name
        fi
    done
 done
@@ -62,8 +62,8 @@ echo $set_type
            filename="${full_filename%.*}"
            script_name=${set_type}_set_scripts/download_${filename}.sh
            echo "Retrying script ${script_name}"
-#            chmod u+x $script_name
-#            ./$script_name
+        #    chmod u+x $script_name
+        #    ./$script_name
        fi
    done
 done
