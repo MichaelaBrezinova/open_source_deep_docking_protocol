@@ -7,8 +7,16 @@ test_print_numbers/
 SDF_docking_checks/
 test.ipynb
 Testing.ipynb
+Butina.ipynb
 docking_run_jobs_train_iteration_1.log
 docking_run_jobs_valid_iteration_1.log
 output_phase_3_vina.txt
 Analysis-Copy1.ipynb
 slurm-*
+smiles.csv
+id_score.csv
+clustering/*
+!clustering/Clustering_and_downstream_analysis.ipynb
+!clustering/prepare_selected_molecules.sh
+!clustering/process_clusters_and_singletons.sh
+
