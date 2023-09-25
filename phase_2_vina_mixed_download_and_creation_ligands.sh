@@ -42,7 +42,7 @@ do
    mkdir -p ${path_to_iteration}/${set_type}_set_scripts || { echo 'Error creating directory' ; exit 1; }
    
    # Create scripts to download SDFs of chunks of size 1000
-   python scripts_3/create_download_ligand_scripts.py -file $f -path_to_store_scripts ${path_to_iteration}/${set_type}_set_scripts -path_to_store_ligands ${path_to_iteration}/${pdbqt_directory}/${set_type}_download
+   python scripts_3/create_download_ligand_scripts.py -file $f -path_to_store_scripts ${path_to_iteration}/${set_type}_set_scripts -path_to_store_ligands ${path_to_iteration}/${pdbqt_directory}/${set_type}_download --remove_ZINC_name
 
    # Run separate download job for each batch of 1000
    for f in ${path_to_iteration}/${set_type}_set_scripts/*.sh;

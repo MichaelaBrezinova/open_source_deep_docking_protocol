@@ -19,4 +19,13 @@ clustering/*
 !clustering/Clustering_and_downstream_analysis.ipynb
 !clustering/prepare_selected_molecules.sh
 !clustering/process_clusters_and_singletons.sh
-
+!clustering/fred_dock_conformations.sh
+!clustering/vina_dock_conformations.sh
+!clustering/retry_downloads.sh
+!clustering/prepare_conformations_for_docking.sh
+!clustering/analyse_docked_compounds.py
+clwriter_0.sdf
+clwriter.sdf
+checks_smiles_gen/*
+TDP43_312.csv
+writer.sdf

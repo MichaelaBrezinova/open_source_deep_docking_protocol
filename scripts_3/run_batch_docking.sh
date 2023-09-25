@@ -38,7 +38,8 @@ if [ "$using_vina_gpu" = true ] ; then
         echo $zinc_id >> $output_file_txt
         ./Vina-GPU --receptor $receptor --config $configuration_file --thread 8000 --search_depth 10 --ligand $file >> $output_file_txt
         echo "@@@@" >> $output_file_txt
-        rm ${batch_directory_to_dock}/${zinc_id}_out.pdbqt
+        # rm ${batch_directory_to_dock}/${zinc_id}_out.pdbqt
+        rm $file
     done
 else 
     echo "Using AutoDock Vina"

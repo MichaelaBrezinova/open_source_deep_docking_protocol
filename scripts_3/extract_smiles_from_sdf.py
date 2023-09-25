@@ -51,5 +51,7 @@ if not isExist:
   # Create a new directory for the specified path
     makedirs(args.path_to_store)
 
+
+# TODO: make name append more generic or add argument to choose it
 labeled_smiles.to_csv(args.path_to_store + "/" + file_name + "_smiles_final_updated.txt", 
                            header=None, index=None, sep=' ', mode='a')

@@ -9,18 +9,26 @@ parser.add_argument("-path_to_store_scripts", default="",
                     help="Path where to store scripts")
 parser.add_argument("-path_to_store_ligands", default="",
                     help="Path where to store the ligands")
+parser.add_argument("-chunk_size", default=1000,
+                    help="Size of a chunk that will be downloaded in parallel")
+parser.add_argument("-prefix_to_chunk_files", default="",
+                    help="Prefix to use with chunk files")
+parser.add_argument('--remove_ZINC_name', action='store_true', 
+                    help="Boolean indicator of whether ZINC word should be removed from ID")
+
 args = parser.parse_args()
 
 set_to_process = pd.read_csv(args.file, 
-                       delim_whitespace=True, header=None, names=["ZINC_ID"])
+                       delim_whitespace=True, header=None, names=["ZINC_ID"], dtype = str)
 # Get only numerical part fo ZINC IDs (remove "ZINC")
-set_to_process["ZINC_ID"] = set_to_process["ZINC_ID"].map(lambda x: x[4:])
+if(args.remove_ZINC_name):
+  set_to_process["ZINC_ID"] = set_to_process["ZINC_ID"].map(lambda x: x[4:])
 
 # Get ZINC IDs
 zinc_ids = list(set_to_process["ZINC_ID"])
 
-# Create chunks of ZINC IDs of size 1000
-chunks = [zinc_ids[x:x+1000] for x in range(0, len(zinc_ids), 1000)]
+# Create chunks of ZINC IDs of given chunk size (default 1000)
+chunks = [zinc_ids[x:x+int(args.chunk_size)] for x in range(0, len(zinc_ids), int(args.chunk_size))]
 
 # Turn chunks into strings of format that will go to the curl command
 chunks_in_string = []
@@ -54,12 +62,16 @@ curl_second_part = '''\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Di
 
 # Build individual bash script for each batch/chunk.
 for index,chunk in enumerate(chunks_in_string):
-    output_name = args.path_to_store_ligands + "/chunk_" + str(index)+ ".sdf"
+    # store chunk into a file if needed later to be reprocessed
+    with open(args.path_to_store_scripts + '/' + args.prefix_to_chunk_files +  'chunk_' + str(index) + '.txt', 'w') as script:
+            script.write(chunk)
+    script.close()
+    output_name = args.path_to_store_ligands + '/' + args.prefix_to_chunk_files +  'chunk_' + str(index)+ ".sdf"
     curl_command = curl_first_part + chunk + curl_second_part + " > " + output_name + "\n"
     number_of_lines_in_file_command = 'x=$(wc -l < ' + output_name + ' )\n'
     # Retry command is used if the request has failed (output file has <1000 lines). 
     retry_command = 'if [ $x -lt 1000 ];\n then\n ' + 'echo "Retrying download as request failed"\n' + curl_command + ' fi\n'
-    with open (args.path_to_store_scripts + '/download_chunk_' + str(index) + '.sh', 'w') as script:
+    with open (args.path_to_store_scripts + '/download_' + args.prefix_to_chunk_files + 'chunk_' + str(index) + '.sh', 'w') as script:
             script.write('#! /bin/bash\n')
             script.write('module load curl-7.63.0-intel-17.0.4-lxwgw2f\n') # load newer version of CURL (relevant on CSD3 only)
             script.write(curl_command)
@@ -75,3 +87,4 @@ for index,chunk in enumerate(chunks_in_string):
             script.write(retry_command)
             script.write(number_of_lines_in_file_command)
             script.write(retry_command)
+    script.close()

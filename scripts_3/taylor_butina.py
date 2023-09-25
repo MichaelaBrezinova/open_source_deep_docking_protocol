@@ -189,7 +189,8 @@ def report_cluster_results(cluster_results, arena, outfile, outfile_full):
 
     print(len(clusters), "clusters", file=outfile_full)
     for centroid_idx, members in clusters:
-        print(arena.ids[centroid_idx], file=outfile)
+        print(arena.ids[centroid_idx] + ","+ arena.ids[centroid_idx], file=outfile)
+        print("\n".join(arena.ids[centroid_idx] + "," + arena.ids[idx] for idx in members), file=outfile)
         print(arena.ids[centroid_idx], "has", len(members), "other members", file=outfile_full)
         print("=>", " ".join(arena.ids[idx] for idx in members), file=outfile_full)
     

@@ -12,4 +12,5 @@ do
     full_filename="${tmp##*/}"
     filename="${full_filename%.*}"
     $obabel_path -isdf $f -opdbqt -O ${filename}.pdbqt
+    rm $f
 done
