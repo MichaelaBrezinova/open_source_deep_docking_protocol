@@ -15,11 +15,19 @@ path_project=$2
 project_name=$3
 name_cpu_partition=$4
 account_name=$5
+train_size=$6 # 2D-Adjustment: Add the size so we know how many molecules to keep after oversampling
 
 # Get paths
 file_path=`sed -n '1p' $path_project/$project_name/logs.txt`
 protein=`sed -n '2p' $path_project/$project_name/logs.txt`
 obabel_path=`sed -n '10p' $path_project/$project_name/logs.txt`
+val_test_size=`sed -n '8p' $3/$4/logs.txt` # 2D-Adjustment: Add the size so we know how many molecules to keep after oversampling
+
+# 2D-Adjustment: Adjust the desired sizes. If we are not in the first iteration, train/valid/test all represent the additional hits that will extend the original train set.
+if [ "$current_iteration" -ne 1 ]; then
+    train_size=$((train_size / 3))
+    val_test_size=$((train_size / 3))
+fi
 
 path_to_pdbqt=$file_path/$protein/iteration_${current_iteration}/pdbqt
 
@@ -40,6 +48,12 @@ path_to_pdbqt=$file_path/$protein/iteration_${current_iteration}/pdbqt
         python scripts_3/split_sdfs.py -file $f -path_to_store $d/${filename}
     done
  done
+
+# 2D-Adjustment: Subsample for train/valid/test sets.
+python scripts_3/subsample_conformations.py -directory_prefix "train" -root_directory $path_to_pdbqt -desired_size $train_size
+python scripts_3/subsample_conformations.py -directory_prefix "test" -root_directory $path_to_pdbqt -desired_size $val_test_size
+python scripts_3/subsample_conformations.py -directory_prefix "valid" -root_directory $path_to_pdbqt -desired_size $val_test_size
+
 
 #For all chunks within each dataset (train/test/valid), convert the single sdf files into pdbqt format.
 for d in ${path_to_pdbqt}/*;

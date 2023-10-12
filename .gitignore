@@ -2,6 +2,7 @@ test_scripts_DELETE_LATER
 extraction_outputs/conformations_smiles_iteration_1/
 extraction_outputs/conformations_smiles_iteration_2/
 docking_optimization_experiments/
+testing_conformation_generation_2D_molecules/*
 results/
 test_print_numbers/
 SDF_docking_checks/
@@ -29,3 +30,5 @@ clwriter.sdf
 checks_smiles_gen/*
 TDP43_312.csv
 writer.sdf
+scripts_3/prepare_ligands.sh
+scripts_3/sdftosmile.sh

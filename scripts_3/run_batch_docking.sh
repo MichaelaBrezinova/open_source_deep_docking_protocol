@@ -25,6 +25,7 @@ echo $batch_directory_to_dock
 # Use Vina or Vina-GPU based on the user's choice.
 if [ "$using_vina_gpu" = true ] ; then
     echo "Using VINA-GPU"
+    # Required for Vina-GPU to work
     ulimit -s 8192
     # For each file in the batch directory, run VINA docking. Output of all dockings along with corresponding ZINC IDs is stored
     # to 1 file.

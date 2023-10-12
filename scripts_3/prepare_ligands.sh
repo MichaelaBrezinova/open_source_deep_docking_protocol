@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#DEPRECATED AS DOWNLOADING LINE BY LINE TAKES TOO LONG
 set_file=$1
 pdbqt_directory=$2
 obabel_path=$3

@@ -27,6 +27,8 @@ parser.add_argument('-dd', '--data_directory',required=True,help='Path to direct
 parser.add_argument('-t_pos', '--tot_process',required=True,help='Number of CPUs to use for multiprocessing')
 parser.add_argument('-tr_sz', '--train_size',required=True,help='Size of training set')
 parser.add_argument('-vl_sz', '--val_size',required=True,help='Size of validation and test set')
+parser.add_argument('--oversample', action='store_true', help='Oversample the training and validation sets') # 2D-Adjustment: Add oversampling flag
+
 io_args = parser.parse_args()
 
 protein = io_args.project_name
@@ -34,8 +36,16 @@ file_path = io_args.file_path
 n_it = int(io_args.n_iteration)
 data_directory = io_args.data_directory
 tot_process = int(io_args.tot_process)
-tr_sz = int(io_args.train_size)
-vl_sz = int(io_args.val_size)
+
+# # 2D-Adjustment: Determine whether to oversample based on the presence of the '--oversample' flag
+oversample = io_args.oversample
+
+if oversample:
+    tr_sz = int(int(io_args.train_size)*1.2) # 2D-Adjustment: oversample to make sure we have enough molecules with 3D conformations
+    vl_sz = int(int(io_args.val_size)*1.2) # 2D-Adjustment: oversample to make sure we have enough molecules with 3D conformations
+else:
+    tr_sz = int(io_args.train_size) # 2D-Adjustment: Original code 
+    vl_sz = int(io_args.val_size) # 2D-Adjustment: Original code 
 rt_sz = tr_sz/vl_sz
 
 print("Parsed Args:")

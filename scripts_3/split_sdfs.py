@@ -29,5 +29,10 @@ for sdf_string in sdf_strings:
 
 # Store each sdf string into a separate SDF file. File is named by ZINC ID of compound the SDF represents.
 for index,sdf_string in enumerate(sdf_strings):
-    with open ( args.path_to_store + '/' + ZINC_ids[index] + '.sdf', 'w') as sdf:
-        sdf.write(sdf_string)
+    # 2D-Adjustment: Remove bodies with only 2D conformation available
+    if("3D" in sdf_string):
+        with open ( args.path_to_store + '/' + ZINC_ids[index] + '.sdf', 'w') as sdf:
+            sdf.write(sdf_string)
+    # 2D-Adjustment: Original code        
+    # with open ( args.path_to_store + '/' + ZINC_ids[index] + '.sdf', 'w') as sdf:
+    #         sdf.write(sdf_string)
