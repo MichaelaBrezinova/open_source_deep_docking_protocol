@@ -74,6 +74,7 @@ for index,chunk in enumerate(chunks_in_string):
     with open (args.path_to_store_scripts + '/download_' + args.prefix_to_chunk_files + 'chunk_' + str(index) + '.sh', 'w') as script:
             script.write('#! /bin/bash\n')
             script.write('module load curl-7.63.0-intel-17.0.4-lxwgw2f\n') # load newer version of CURL (relevant on CSD3 only)
+            script.write('module load curl/7.79.0/gcc/75dxv7ac\n') # load newer version of CURL (relevant on CSD3 only)
             script.write(curl_command)
             # If request fail, retry up to 5 times. This is done this way and not with --retry curl option so we do not 
             # have faulty html snippet in the output sdf file.

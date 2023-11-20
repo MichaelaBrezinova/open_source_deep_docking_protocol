@@ -28,11 +28,17 @@ for sdf_string in sdf_strings:
     ZINC_ids.append(zinc_id)
 
 # Store each sdf string into a separate SDF file. File is named by ZINC ID of compound the SDF represents.
+skipped_2D_compounds = 0
 for index,sdf_string in enumerate(sdf_strings):
     # 2D-Adjustment: Remove bodies with only 2D conformation available
     if("3D" in sdf_string):
         with open ( args.path_to_store + '/' + ZINC_ids[index] + '.sdf', 'w') as sdf:
             sdf.write(sdf_string)
+    else:
+        skipped_2D_compounds=skipped_2D_compounds+1
     # 2D-Adjustment: Original code        
     # with open ( args.path_to_store + '/' + ZINC_ids[index] + '.sdf', 'w') as sdf:
     #         sdf.write(sdf_string)
+
+# 2D-Adjustment
+print("Number of skipped 2D compounds: ", skipped_2D_compounds)

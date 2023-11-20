@@ -1,5 +1,6 @@
 import argparse
 import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
 import matplotlib
 import pandas as pd
 import numpy as np
@@ -9,6 +10,10 @@ from ML.DDModel import DDModel
 from sklearn.metrics import auc
 from sklearn.metrics import roc_curve
 
+cmap_name = 'custom_colormap'
+n_colors = 256
+colors = ["#1a237e", "#4285f4", "#0f9d58", "#f4b400", "#db4437"]
+custom_cmap = mcolors.LinearSegmentedColormap.from_list(cmap_name, colors, N=n_colors)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-pr','--project',required=True,help='Location of project')
@@ -73,7 +78,7 @@ from matplotlib.pyplot import figure
 
 font = {'family' : 'normal',
         'weight' : 'normal',
-        'size'   : 12}
+        'size'   : 14}
 
 matplotlib.rc('font', **font)
 
@@ -85,18 +90,19 @@ plt.xlabel('FPR')
 zinc_labels_test = get_zinc_and_labels(path + '/iteration_1/morgan/test_morgan_1024_updated.csv', path +'/iteration_1/testing_labels.txt')
 X_test, y_test = get_all_x_data(path +'/iteration_1/morgan/test_morgan_1024_updated.csv', zinc_labels_test)
 
-for i in range(it_1, it_2 + 1):
-    mod_name = str(glob.glob(path + '/iteration_%i/best_models/model_*.ddss'%i)).split('/')[-1].split('.')[0]
-    print('Now processing iteration %i'%i)
-    model = DDModel.load(path +'/iteration_%i/best_models/%s'%(i, mod_name))
-    thr = pd.read_csv(path +'/iteration_%i/best_models/thresholds.txt'%i, names=['n','prob','score'])
+iterations_loop = range(it_1, it_2 + 1)
+for i, it in enumerate(iterations_loop):
+    mod_name = str(glob.glob(path + '/iteration_%d/best_models/model_*.ddss' % it)).split('/')[-1].split('.')[0]
+    print('Now processing iteration %d'%it)
+    model = DDModel.load(path +'/iteration_%d/best_models/%s' %(it, mod_name))
+    thr = pd.read_csv(path +'/iteration_%d/best_models/thresholds.txt'  %it, names=['n','prob','score'])
     prob = float(thr['prob'])
     score = float(thr['score'])
     y_test_cf = y_test<score
     model_pred = model.predict(X_test)
     fpr, tpr, threshold = roc_curve(y_test_cf, model_pred, drop_intermediate=False)
     roc_auc = auc(fpr, tpr)
-    plt.plot(fpr, tpr, label = 'AUC it. %i = %0.3f'%(i, roc_auc))
+    plt.plot(fpr, tpr, label = 'iteration %d, AUC = %0.3f'%(it, roc_auc),color=custom_cmap(i / (len(iterations_loop) - 1)))
 
 plt.legend(loc = 'lower right')    
 plt.tight_layout()
@@ -124,6 +130,7 @@ plt.plot(it, count, color="#4285f4", marker='o')
 plt.xlim([it[0], it[-1]+1])
 plt.ylim([0, max(count)+10])
 plt.xticks(np.arange(it_1, it_2+0.01, step=1))
+plt.yticks(range(0, int(max(count)) + 10, 50))
 plt.ylabel('Predicted hits, M')
 plt.xlabel('Iteration')
 plt.grid(axis='y', alpha=0.75)

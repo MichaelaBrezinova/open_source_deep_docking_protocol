@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#TODO: review chunk size
+
 current_iteration=$1
 n_cpus_per_node=$2
 path_project=$3

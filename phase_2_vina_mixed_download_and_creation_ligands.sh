@@ -41,12 +41,12 @@ do
    mkdir -p ${path_to_iteration}/${pdbqt_directory}/${set_type}_download || { echo 'Error creating directory' ; exit 1; }
    mkdir -p ${path_to_iteration}/${set_type}_set_scripts || { echo 'Error creating directory' ; exit 1; }
    
-   # Create scripts to download SDFs of chunks of size 1000
-   python scripts_3/create_download_ligand_scripts.py -file $f -path_to_store_scripts ${path_to_iteration}/${set_type}_set_scripts -path_to_store_ligands ${path_to_iteration}/${pdbqt_directory}/${set_type}_download --remove_ZINC_name
+   # Create scripts to download SDFs of chunks of size 200
+   python scripts_3/create_download_ligand_scripts.py -file $f -path_to_store_scripts ${path_to_iteration}/${set_type}_set_scripts -path_to_store_ligands ${path_to_iteration}/${pdbqt_directory}/${set_type}_download -chunk_size 200 --remove_ZINC_name 
 
-   # Run separate download job for each batch of 1000
+   # Run separate download job for each batch of 200
    for f in ${path_to_iteration}/${set_type}_set_scripts/*.sh;
-   do dos2unix $f;sbatch -N 1 -n 1 --time=00:30:00 --cpus-per-task=$n_cpus_per_node --account=$account_name --partition=$name_cpu_partition $f;
+   do dos2unix $f;sbatch -N 1 -n 1 --time=00:15:00 --cpus-per-task=$n_cpus_per_node --account=$account_name --partition=$name_cpu_partition $f;
    done
 done
 
@@ -64,7 +64,13 @@ do
    
    # Split the file containing smiles into chunks of 1000
    split -l 1000 $f ${path_to_iteration}/${pdbqt_directory}/${set_type}_creation/chunk_
-   
+
+   # Add extension to each file with smiles
+   for file_with_smiles in ${path_to_iteration}/${pdbqt_directory}/${set_type}_creation/*
+   do
+      mv "$file_with_smiles" "$file_with_smiles.smi"
+   done
+
    # Run the 3D conformation tool for each of the chunks in parallel
    for file_with_smiles in ${path_to_iteration}/${pdbqt_directory}/${set_type}_creation/*
    do

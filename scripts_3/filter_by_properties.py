@@ -73,7 +73,7 @@ with open(args.file) as file:
                 # Comment when you want to try with alternative ZNIC file
                 filtered_lines.append(zinc_smile + " " + zinc_id)
                 
-#                 # Uncomment when you want to try with alternative ZNIC file
+#                 # Uncomment when you want to try with alternative ZINC file
 #                 # Try to get smile from ZINC 
 #                 alternative_zinc_smile = smilite.get_zinc_smile(clean_zinc_id, backend="zinc15")
 #                 if(alternative_zinc_smile):

@@ -32,3 +32,8 @@ TDP43_312.csv
 writer.sdf
 scripts_3/prepare_ligands.sh
 scripts_3/sdftosmile.sh
+download_200_ligands_duration.txt
+scripts_3/testing.ipynb
+statistics_download_times.txt
+phase_1_prepare_original_dataset.sh
+scripts_3/original_dataset_processing/*

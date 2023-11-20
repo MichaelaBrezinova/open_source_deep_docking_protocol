@@ -27,7 +27,6 @@ parser.add_argument('-dd', '--data_directory',required=True,help='Path to direct
 parser.add_argument('-t_pos', '--tot_process',required=True,help='Number of CPUs to use for multiprocessing')
 parser.add_argument('-tr_sz', '--train_size',required=True,help='Size of training set')
 parser.add_argument('-vl_sz', '--val_size',required=True,help='Size of validation and test set')
-parser.add_argument('--oversample', action='store_true', help='Oversample the training and validation sets') # 2D-Adjustment: Add oversampling flag
 
 io_args = parser.parse_args()
 
@@ -37,15 +36,8 @@ n_it = int(io_args.n_iteration)
 data_directory = io_args.data_directory
 tot_process = int(io_args.tot_process)
 
-# # 2D-Adjustment: Determine whether to oversample based on the presence of the '--oversample' flag
-oversample = io_args.oversample
-
-if oversample:
-    tr_sz = int(int(io_args.train_size)*1.2) # 2D-Adjustment: oversample to make sure we have enough molecules with 3D conformations
-    vl_sz = int(int(io_args.val_size)*1.2) # 2D-Adjustment: oversample to make sure we have enough molecules with 3D conformations
-else:
-    tr_sz = int(io_args.train_size) # 2D-Adjustment: Original code 
-    vl_sz = int(io_args.val_size) # 2D-Adjustment: Original code 
+tr_sz = int(io_args.train_size) 
+vl_sz = int(io_args.val_size)  
 rt_sz = tr_sz/vl_sz
 
 print("Parsed Args:")
@@ -61,10 +53,13 @@ def train_valid_test(file_name):
     mol_ct = pd.read_csv(data_directory+"/Mol_ct_file_updated_%s.csv"%protein, index_col=1)
     if n_it == 1:
         to_sample = int(mol_ct.loc[f_name].Sample_for_million/(rt_sz+2))
+        print('to sample: ', to_sample)
     else:
         to_sample = int(mol_ct.loc[f_name].Sample_for_million/3)
+        print('to sample: ', to_sample)
 
     total_len = int(mol_ct.loc[f_name].Number_of_Molecules)
+    print('total len: ', total_len)
     shuffle_array = np.linspace(0, total_len-1, total_len)
     seed = np.random.randint(0, 2**32)
     np.random.seed(seed=seed)

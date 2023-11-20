@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --account VENDRUSCOLO-SL3-CPU
-#SBATCH --partition skylake
+#SBATCH --partition icelake
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=10
@@ -10,6 +10,7 @@
 current_iteration=$1
 path_project=$2
 project_name=$3
+chunk_size=$4 
 
 # Get paths
 file_path=`sed -n '1p' $path_project/$project_name/logs.txt`
@@ -38,13 +39,13 @@ echo $set_type
            filename="${full_filename%.*}"
            script_name=${set_type}_set_scripts/download_${filename}.sh
            echo "Retrying script ${script_name}"
-        #    chmod u+x $script_name
-        #    ./$script_name
+           chmod u+x $script_name
+           ./$script_name
        fi
    done
 done
 
-# For each batch file that has less compounds downloaded than 1000, repeat the download
+# For each batch file that has less compounds downloaded than $chunk_size, repeat the download
 echo "retry based on number of compounds"
 for d in ${pdbqt_directory}/*_download;
 do
@@ -55,15 +56,15 @@ echo $set_type
    for f in $d/*.sdf
    do
        x=$(grep -wc "\$\$\$\$" < "$f")
-       if [ $x -lt 1000 ];
+       if [ $x -lt $chunk_size ];
        then
            tmp="$f"
            full_filename="${tmp##*/}"
            filename="${full_filename%.*}"
            script_name=${set_type}_set_scripts/download_${filename}.sh
            echo "Retrying script ${script_name}"
-        #    chmod u+x $script_name
-        #    ./$script_name
+           chmod u+x $script_name
+           ./$script_name
        fi
    done
 done

@@ -21,6 +21,13 @@ t_cpu=$2
 
 mol_to_dock=$5
 
+# 2D-Adjustment: oversample to make sure we have enough molecules with 3D conformations
+mol_to_dock=$(echo "$mol_to_dock * 1.2" | bc)
+mol_to_dock=$(printf "%.0f" "$mol_to_dock")
+
+n_mol=$(echo "$n_mol * 1.2" | bc)
+n_mol=$(printf "%.0f" "$n_mol")
+
 if [ $1 == 1 ]
 then 
 	to_d=$((n_mol+n_mol+mol_to_dock))
