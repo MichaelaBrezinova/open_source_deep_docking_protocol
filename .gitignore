@@ -39,3 +39,8 @@ phase_1_prepare_original_dataset.sh
 scripts_3/original_dataset_processing/*
 scripts_3/download_sdfs.sh
 requirements.txt
+slurms/*
+Analysis.ipynb
+conda_env_backups/*
+creation_ligands_duration.txt
+.ipynb_checkpoints

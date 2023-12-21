@@ -74,18 +74,18 @@ def get_all_x_data(morgan_path, ID_labels): # ID_labels is a dataframe containin
 
 #Plot ROC curves
 
-from matplotlib.pyplot import figure
-
 font = {'family' : 'normal',
         'weight' : 'normal',
         'size'   : 14}
 
 matplotlib.rc('font', **font)
 
-plt.xlim([0, 1])
-plt.ylim([0, 1])
-plt.ylabel('TPR')
-plt.xlabel('FPR')
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
+
+ax2.set_xlim([0, 1])
+ax2.set_ylim([0, 1])
+ax2.set_ylabel('TPR')
+ax2.set_xlabel('FPR')
 
 zinc_labels_test = get_zinc_and_labels(path + '/iteration_1/morgan/test_morgan_1024_updated.csv', path +'/iteration_1/testing_labels.txt')
 X_test, y_test = get_all_x_data(path +'/iteration_1/morgan/test_morgan_1024_updated.csv', zinc_labels_test)
@@ -102,14 +102,14 @@ for i, it in enumerate(iterations_loop):
     model_pred = model.predict(X_test)
     fpr, tpr, threshold = roc_curve(y_test_cf, model_pred, drop_intermediate=False)
     roc_auc = auc(fpr, tpr)
-    plt.plot(fpr, tpr, label = 'iteration %d, AUC = %0.3f'%(it, roc_auc),color=custom_cmap(i / (len(iterations_loop) - 1)))
+    ax2.plot(fpr, tpr, label = 'iteration %d, AUC = %0.3f'%(it, roc_auc),color=custom_cmap(i / (len(iterations_loop) - 1)))
 
-plt.legend(loc = 'lower right')    
-plt.tight_layout()
-plt.grid(axis='y', alpha=0.75)
-plt.title('ROC over iterations')
-plt.savefig(path_out + '/ROC.pdf',bbox_inches = "tight")
-plt.clf()
+ax2.legend(loc = 'lower right')    
+# ax1.tight_layout()
+ax2.grid(axis='y', alpha=0.75)
+ax2.set_title('ROC over iterations')
+# ax1.savefig(path_out + '/ROC.pdf',bbox_inches = "tight")
+# plt.clf()
 
 #Plot number of molecules
 it = []
@@ -126,15 +126,25 @@ for i in range(it_1, it_2 + 1):
     it.append(i)
     count.append(total_it)    
 
-plt.plot(it, count, color="#4285f4", marker='o')
-plt.xlim([it[0], it[-1]+1])
-plt.ylim([0, max(count)+10])
-plt.xticks(np.arange(it_1, it_2+0.01, step=1))
-plt.yticks(range(0, int(max(count)) + 10, 50))
-plt.ylabel('Predicted hits, M')
-plt.xlabel('Iteration')
-plt.grid(axis='y', alpha=0.75)
-plt.legend('',frameon=False)
-plt.tight_layout()
-plt.title('Predicted hits over iterations')
-plt.savefig(path_out + '/n_mol.pdf',bbox_inches = "tight")
+ax1.plot(it, count, color="#4285f4", marker='o')
+ax1.set_xlim([it[0], it[-1]+1])
+ax1.set_ylim([0, max(count)+10])
+ax1.set_xticks(np.arange(it_1, it_2+0.01, step=1))
+ax1.set_yticks(range(0, int(max(count)) + 10, 50))
+ax1.set_ylabel('Predicted hits, M')
+ax1.set_xlabel('Iteration')
+ax1.grid(axis='y', alpha=0.75)
+ax1.legend('',frameon=False)
+# ax1.tight_layout()
+ax1.set_title('Predicted hits over iterations')
+
+# # Adding labels A and B to the top-left corner
+# fig.text(0.02, 0.95, 'A', fontsize=12, fontweight='bold')
+# fig.text(0.52, 0.95, 'B', fontsize=12, fontweight='bold')
+# Adding labels A and B to the top-left corner
+fig.text(0.02, 0.95, 'A', fontsize=30)
+fig.text(0.52, 0.95, 'B', fontsize=30)
+
+# plt.savefig(path_out + '/n_mol.pdf',bbox_inches = "tight")
+
+plt.savefig(path_out + '/n_mol_and_roc.pdf',bbox_inches = "tight")
