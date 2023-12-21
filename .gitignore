@@ -43,4 +43,5 @@ slurms/*
 Analysis.ipynb
 conda_env_backups/*
 creation_ligands_duration.txt
-.ipynb_checkpoints
+.ipynb_checkpoints/*
+extraction_outputs/*
