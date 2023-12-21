@@ -17,7 +17,7 @@ slurm-*
 smiles.csv
 id_score.csv
 clustering_and_downstream_analysis/*
-!clustering_and_downstream_analysis/Downstream_analysis_and_clustering.ipynb
+!clustering_and_downstream_analysis/Clustering_and_downstream_analysis.ipynb
 !clustering_and_downstream_analysis/prepare_selected_molecules.sh
 !clustering_and_downstream_analysis/process_clusters_and_singletons.sh
 !clustering_and_downstream_analysis/fred_dock_conformations.sh
