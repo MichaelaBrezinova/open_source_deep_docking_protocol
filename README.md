@@ -1,8 +1,8 @@
-# The Open-source deep docking protocol
+# The Open-source deep docking protocol and downstream analysis
 
 This **open-source deep docking pipeline** is built upon an original Deep Docking pipeline created by Gentile et al. ([protocol](https://www.nature.com/articles/s41596-021-00659-2)).
 
-To see instructions on how to run the protocol, please refer to the **Open-Source Deep Docking jupyter notebook** provided in this repository. 
+To see instructions on how to run the protocol, please refer to the **Open-Source Deep Docking jupyter notebook** provided in this repository. The downstream analysis is described in **clustering_and_downstream_analysis/Clustering_and_downstream_analysis.ipynb**.
 
 The instructions are adjusted to use on specific cluster provided by the University of Cambridge, however, can be easily changed to work on any platform. 
 
