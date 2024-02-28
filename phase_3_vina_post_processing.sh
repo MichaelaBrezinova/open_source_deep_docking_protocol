@@ -59,10 +59,10 @@ mv ${path_to_iteration}/corrected_morgan ${path_to_iteration}/morgan || { echo '
 ####  EXTRACTING VINA LABELS #### 
 
 # Valid set
-python scripts_3/extract_scores_vina.py -directory_prefix_to_process ${path_to_iteration}/docked/valid -path_to_store ${path_to_iteration}
+python scripts_3/extract_scores_vina.py -directory_to_process ${path_to_iteration}/docked/valid -path_to_store ${path_to_iteration} -do_download_creation_extension_split True
 
 # Test set
-python scripts_3/extract_scores_vina.py -directory_prefix_to_process ${path_to_iteration}/docked/test -path_to_store ${path_to_iteration}
+python scripts_3/extract_scores_vina.py -directory_to_process ${path_to_iteration}/docked/test -path_to_store ${path_to_iteration} -do_download_creation_extension_split True
 
 # Train set
-python scripts_3/extract_scores_vina.py -directory_prefix_to_process ${path_to_iteration}/docked/train -path_to_store  ${path_to_iteration}
+python scripts_3/extract_scores_vina.py -directory_to_process ${path_to_iteration}/docked/train -path_to_store  ${path_to_iteration} -do_download_creation_extension_split True

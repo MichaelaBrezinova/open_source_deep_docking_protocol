@@ -31,11 +31,18 @@ do
    # Split the file containing smiles into chunks of 1000
    split -l 1000 $f ${path_to_iteration}/${pdbqt_directory}/${set_type}/chunk_
    
-   # Run the 3D conformation tool for each of the chunks in parallel
+   # Add extension to each file with smiles
    for file_with_smiles in ${path_to_iteration}/${pdbqt_directory}/${set_type}/*
    do
+      mv "$file_with_smiles" "$file_with_smiles.smi"
+   done
+
+   # Run the 3D conformation tool for each of the chunks in parallel
+   for file_with_smiles in ${path_to_iteration}/${pdbqt_directory}/${set_type}/*.smi
+   do
+       echo "create job for ${file_with_smiles}" 
        # Parameters set for slurm come from the user's input. However, if there are specific cluster requirements/changes needed
        # please add them here.
-       sbatch -N 1 -n 1 --time=05:00:00 --cpus-per-task=$n_cpus_per_node --account=$account_name --partition=$name_cpu_partition --wrap "python scripts_3/smi2sdf.py -n 1 -j $n_cpus_per_node -i $file_with_smiles -o $file_with_smiles.sdf; rm $file_with_smiles"
+       sbatch -N 1 -n 1 --time=05:00:00 --cpus-per-task=$n_cpus_per_node --account=$account_name --partition=$name_cpu_partition --wrap "python scripts_3/smi2sdf.py -n 1 -j $n_cpus_per_node -i $file_with_smiles -o $file_with_smiles.sdf;"
    done 
 done

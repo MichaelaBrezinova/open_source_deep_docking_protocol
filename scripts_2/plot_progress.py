@@ -105,11 +105,11 @@ for i, it in enumerate(iterations_loop):
     ax2.plot(fpr, tpr, label = 'iteration %d, AUC = %0.3f'%(it, roc_auc),color=custom_cmap(i / (len(iterations_loop) - 1)))
 
 ax2.legend(loc = 'lower right')    
-# ax1.tight_layout()
-ax2.grid(axis='y', alpha=0.75)
+
+## Uncomment if you want background grid shown
+# ax2.grid(axis='y', alpha=0.75)
+
 ax2.set_title('ROC over iterations')
-# ax1.savefig(path_out + '/ROC.pdf',bbox_inches = "tight")
-# plt.clf()
 
 #Plot number of molecules
 it = []
@@ -133,18 +133,16 @@ ax1.set_xticks(np.arange(it_1, it_2+0.01, step=1))
 ax1.set_yticks(range(0, int(max(count)) + 10, 50))
 ax1.set_ylabel('Predicted hits, M')
 ax1.set_xlabel('Iteration')
-ax1.grid(axis='y', alpha=0.75)
+
+## Uncomment if you want to display grid in the background
+# ax1.grid(axis='y', alpha=0.75)
+
 ax1.legend('',frameon=False)
 # ax1.tight_layout()
 ax1.set_title('Predicted hits over iterations')
 
-# # Adding labels A and B to the top-left corner
-# fig.text(0.02, 0.95, 'A', fontsize=12, fontweight='bold')
-# fig.text(0.52, 0.95, 'B', fontsize=12, fontweight='bold')
 # Adding labels A and B to the top-left corner
 fig.text(0.02, 0.95, 'A', fontsize=30)
 fig.text(0.52, 0.95, 'B', fontsize=30)
-
-# plt.savefig(path_out + '/n_mol.pdf',bbox_inches = "tight")
 
 plt.savefig(path_out + '/n_mol_and_roc.pdf',bbox_inches = "tight")

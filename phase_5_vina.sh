@@ -3,8 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --account=VENDRUSCOLO-SL3-GPU
-#SBATCH --partition=ampere
 #SBATCH --job-name=phase_5
 #SBATCH --time=01:00:00
 

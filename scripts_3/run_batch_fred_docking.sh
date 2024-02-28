@@ -2,12 +2,6 @@
 module load gcc
 module load boost-1.66.0-gcc-5.4.0-sdffwvs
 
-# /home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/clustering/clustering_results/molecule_testing/pdbqt/clusters_download/ZINC000527012883_out.pdbqt
-#/home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/clustering/clustering_results/molecule_testing/pdbqt/clusters_download/ZINC000001243939_out.pdbqt
-# obabel=/home/mb2462/test/DD_protocol_data/OPENBABEL/build/bin/obabel
-# oe_license=/home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/clustering/oe_license.txt
-# receptor=/home/mb2462/rds/hpc-work/DD/DD_protocol_data/DD_main_clean/clustering/receptor.pdb
-# openeye=/home/mb2462/rds/hpc-work/DD/DD_protocol_data/openeye
 chunk_file=$1
 directory_to_store=$2
 obabel=$3

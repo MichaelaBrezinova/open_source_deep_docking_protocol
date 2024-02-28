@@ -33,6 +33,7 @@ for index,sdf_string in enumerate(sdf_strings):
     # 2D-Adjustment: Remove bodies with only 2D conformation available
     if("3D" in sdf_string):
         with open ( args.path_to_store + '/' + ZINC_ids[index] + '.sdf', 'w') as sdf:
+            sdf.write(ZINC_ids[index]) # As downloads do not add ZINC_ID to the SDFs header, add it manually
             sdf.write(sdf_string)
     else:
         skipped_2D_compounds=skipped_2D_compounds+1

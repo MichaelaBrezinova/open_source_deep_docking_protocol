@@ -15,6 +15,13 @@ parser.add_argument("-prefix_to_chunk_files", default="",
                     help="Prefix to use with chunk files")
 parser.add_argument('--remove_ZINC_name', action='store_true', 
                     help="Boolean indicator of whether ZINC word should be removed from ID")
+parser.add_argument('-output_format', default='sdf',
+                    help="Output format for the compounds you want to download (sdf/smi/...)")
+# This argument is used to repeat request if the output file does not contain enough data, often
+# signifying the request failed or was incomplete. Should be adjusted based on the output format
+# and chunk size.
+parser.add_argument('-retry_line_requirement', default=1000,
+                    help="Minimum line requirement of the file. If not reached, the request is repeated.")
 
 args = parser.parse_args()
 
@@ -57,7 +64,7 @@ curl_first_part = '''curl 'https://zinc20.docking.org/substances/resolved/' \
   -H 'sec-ch-ua-platform: "macOS"' \
   --data-raw $'------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="paste"\r\n\r\n'''
 
-curl_second_part = '''\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="upload"; filename=""\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="identifiers"\r\n\r\ny\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="structures"\r\n\r\ny\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="names"\r\n\r\ny\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="retired"\r\n\r\ny\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="charges"\r\n\r\ny\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="scaffolds"\r\n\r\ny\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="multiple"\r\n\r\ny\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="output_format"\r\n\r\nsdf\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH--\r\n' \
+curl_second_part = f'''\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="upload"; filename=""\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="identifiers"\r\n\r\ny\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="structures"\r\n\r\ny\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="names"\r\n\r\ny\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="retired"\r\n\r\ny\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="charges"\r\n\r\ny\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="scaffolds"\r\n\r\ny\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="multiple"\r\n\r\ny\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH\r\nContent-Disposition: form-data; name="output_format"\r\n\r\n{args.output_format}\r\n------WebKitFormBoundary3PFsqZvV99a0nSHH--\r\n' \
   --compressed'''
 
 # Build individual bash script for each batch/chunk.
@@ -66,11 +73,11 @@ for index,chunk in enumerate(chunks_in_string):
     with open(args.path_to_store_scripts + '/' + args.prefix_to_chunk_files +  'chunk_' + str(index) + '.txt', 'w') as script:
             script.write(chunk)
     script.close()
-    output_name = args.path_to_store_ligands + '/' + args.prefix_to_chunk_files +  'chunk_' + str(index)+ ".sdf"
+    output_name = args.path_to_store_ligands + '/' + args.prefix_to_chunk_files +  'chunk_' + str(index)+ f".{args.output_format}"
     curl_command = curl_first_part + chunk + curl_second_part + " > " + output_name + "\n"
     number_of_lines_in_file_command = 'x=$(wc -l < ' + output_name + ' )\n'
-    # Retry command is used if the request has failed (output file has <1000 lines). 
-    retry_command = 'if [ $x -lt 1000 ];\n then\n ' + 'echo "Retrying download as request failed"\n' + curl_command + ' fi\n'
+    # Retry command is used if the request has failed (output file has <{retry_line_requirement} lines). 
+    retry_command = f'if [ $x -lt {args.retry_line_requirement} ];\n then\n ' + 'echo "Retrying download as request failed"\n' + curl_command + ' fi\n'
     with open (args.path_to_store_scripts + '/download_' + args.prefix_to_chunk_files + 'chunk_' + str(index) + '.sh', 'w') as script:
             script.write('#! /bin/bash\n')
             script.write('module load curl-7.63.0-intel-17.0.4-lxwgw2f\n') # load newer version of CURL (relevant on CSD3 only)

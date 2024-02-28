@@ -1,7 +1,14 @@
 #!/bin/bash
 
+# # Uncomment if need this modules (probably relevant only for CSD3 users)
+# module load gcc
+# module load boost-1.66.0-gcc-5.4.0-sdffwvs
+# # modify this based on user's specific path. This is an example
+# export BABEL_LIBDIR=/home/mb2462/test/DD_protocol_data/OPENBABEL/build/lib
+
 directory_to_process=$1
 obabel_path=$2
+
 # Go to directory with the current iteration
 cd $directory_to_process
 
@@ -14,7 +21,11 @@ do
         tmp="$f"
         full_filename="${tmp##*/}"
         filename="${full_filename%.*}"
+
+        # Run obabel to convert to right format for docking
         $obabel_path -isdf "$f" -opdbqt -O "${filename}.pdbqt"
+
+        # Comment if you want to keep the original SDF file after converting to pdbqt
         rm "$f"
     fi
 

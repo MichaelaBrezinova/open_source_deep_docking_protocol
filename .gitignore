@@ -45,3 +45,9 @@ conda_env_backups/*
 creation_ligands_duration.txt
 .ipynb_checkpoints/*
 extraction_outputs/*
+compare_with_original_library/*
+test_download_vs_generate/*
+vina_docking_adapalene_thioflavin/*
+plots_pipeline_nmol_and_roc_tensor/*
+test_extract_scores_vina.ipynb
+test_extract_scores_vina/*

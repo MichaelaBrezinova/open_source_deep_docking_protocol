@@ -72,7 +72,7 @@ do
    done
 
    # Run the 3D conformation tool for each of the chunks in parallel
-   for file_with_smiles in ${path_to_iteration}/${pdbqt_directory}/${set_type}_creation/*
+   for file_with_smiles in ${path_to_iteration}/${pdbqt_directory}/${set_type}_creation/*.smi
    do
        echo "create job for ${file_with_smiles}" 
        # Parameters set for slurm come from the user's input. However, if there are specific cluster requirements/changes needed
