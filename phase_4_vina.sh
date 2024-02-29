@@ -1,7 +1,5 @@
 #!/bin/bash
 #SBATCH --cpus-per-task=3
-#SBATCH --account=VENDRUSCOLO-SL3-GPU
-#SBATCH --partition ampere
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --gres=gpu:1

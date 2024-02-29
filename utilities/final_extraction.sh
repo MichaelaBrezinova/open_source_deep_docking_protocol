@@ -1,7 +1,5 @@
 #!/bin/bash
 #SBATCH --cpus-per-task=10
-#SBATCH --account=VENDRUSCOLO-SL3-CPU
-#SBATCH --partition skylake
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --job-name=extract

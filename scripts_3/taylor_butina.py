@@ -44,6 +44,9 @@ __version__ = "1.1"
 # Version 1.0 (5 Jun 2017) - initial release
 # Version 1.1 (9 Mar 2022) - fixed true singleton bug noticed by Jacob Gora
 
+# NOTE: Open-Source Deep Docking Protocol added adjustment is a new file for reporting
+# results that contains all "cluster_center, molecule_in_cluster" pairs.
+
 import sys
 import argparse
 import time
@@ -163,6 +166,9 @@ def taylor_butina_cluster(similarity_table):
     # Return the results:
     return ClusterResults(true_singletons, false_singletons, clusters)
 
+# Open-Source Deep Docking Protocol added adjustment: added new file for reporting
+# results that contains all "cluster_center, molecule_in_cluster" pairs.
+# Original output now goes to outfile_full and the new pairs go to outfile.
 def report_cluster_results(cluster_results, arena, outfile, outfile_full):
     true_singletons = cluster_results.true_singletons
     false_singletons = cluster_results.false_singletons
@@ -189,8 +195,10 @@ def report_cluster_results(cluster_results, arena, outfile, outfile_full):
 
     print(len(clusters), "clusters", file=outfile_full)
     for centroid_idx, members in clusters:
+        # For the cluster centroid, add all centroid-cluster_molecule pairs.
         print(arena.ids[centroid_idx] + ","+ arena.ids[centroid_idx], file=outfile)
         print("\n".join(arena.ids[centroid_idx] + "," + arena.ids[idx] for idx in members), file=outfile)
+        
         print(arena.ids[centroid_idx], "has", len(members), "other members", file=outfile_full)
         print("=>", " ".join(arena.ids[idx] for idx in members), file=outfile_full)
     
