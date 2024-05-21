@@ -7,6 +7,8 @@ from rdkit import RDLogger
 lg = RDLogger.logger()
 lg.setLevel(RDLogger.CRITICAL)
 
+# Adapted from https://github.com/caiyingchun/pychem/blob/cf7e80184349993fdb1965f6f1e9bfc0e75cd1b5/sdf2smi.py
+
 def converter(file_name, path_to_store):
     molecules = [x for x in Chem.ForwardSDMolSupplier(open(file_name,'rb')) if x is not None]
     clean_file_name = file_name.split('/')[-1].split(".")[0]
