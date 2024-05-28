@@ -3,7 +3,7 @@
 This **open-source deep docking pipeline** is built upon an original Deep Docking pipeline created by Gentile et al. ([original protocol](https://www.nature.com/articles/s41596-021-00659-2)).
 
 ## Instructions
-To see detailed instructions on how to run the protocol, please refer to the **Open-Source Deep Docking.ipynb** notebook provided in this repository. The optional downstream analysis is described in **clustering_and_downstream_analysis/Clustering_and_downstream_analysis.ipynb**. The instructions are adjusted to use on CSD3 cluster provided by the University of Cambridge, however, can be easily changed to work on any platform. 
+To see detailed instructions on how to run the protocol, please refer to the **Open-Source Deep Docking.ipynb** notebook provided in this repository. These instructions are complementary to the instructions in the [original protocol](https://www.nature.com/articles/s41596-021-00659-2). The optional downstream analysis is described in **clustering_and_downstream_analysis/Clustering_and_downstream_analysis.ipynb**. The instructions are adjusted to use on CSD3 cluster provided by the University of Cambridge, however, can be easily changed to work on any platform. 
 
 ### TL;DR
 
@@ -36,7 +36,7 @@ The installation times for all these tools are standard ( <5 mins).
 DD-prepared version (provided with the [original protocol](https://www.nature.com/articles/s41596-021-00659-2)) of the ZINC20 library (as available in March 2021) is available at https://files.docking.org/zinc20-ML/.
 
 #### Example
-An example target receptor (receptor.pdbqt) with configuration file (conf.txt) required by Vina and parameter file (logs.txt) required by the pipeline are available in **results** directory (TODO). **Open-Source Deep Docking.ipynb** contains workflow using this example. An example output after one iteration for DD-prepared library (filtered by molecular weight <=360) is available at XXX(TODO). 
+An example target receptor (receptor.pdbqt) with configuration file (conf.txt) required by Vina and parameter file (logs.txt) required by the pipeline are available in **results** directory (TODO). Parameter file needs to be adjusted based on the user's paths. **Open-Source Deep Docking.ipynb** contains workflow using this example. An example output after one iteration for DD-prepared library (filtered by molecular weight <=360) is available at XXX(TODO). 
 
 The duration of full run (in our case it was 5 iterations, possible to change) depends on available hardware and cluster waiting times and number of molecules docked in each iteration. However, on average it should take around 1-2 weeks (in human terms, not computer time). 
 

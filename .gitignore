@@ -4,6 +4,7 @@ extraction_outputs/conformations_smiles_iteration_2/
 docking_optimization_experiments/
 testing_conformation_generation_2D_molecules/*
 results/
+!results/abeta/logs.txt
 test_print_numbers/
 SDF_docking_checks/
 test.ipynb
