@@ -36,7 +36,7 @@ The installation times for all these tools are standard ( <5 mins).
 DD-prepared version (provided with the [original protocol](https://www.nature.com/articles/s41596-021-00659-2)) of the ZINC20 library (as available in March 2021) is available at https://files.docking.org/zinc20-ML/.
 
 #### Example
-An example target receptor (receptor.pdbqt) with configuration file (conf.txt) required by Vina and parameter file (logs.txt) required by the pipeline are available in **results** directory (TODO). Parameter file needs to be adjusted based on the user's paths. **Open-Source Deep Docking.ipynb** contains workflow using this example. An example output after one iteration for DD-prepared library (filtered by molecular weight <=360) is available at XXX(TODO). 
+An example target receptor (receptor.pdbqt) with configuration file (conf.txt) required by Vina and parameter file [logs.txt](results/abeta/logs.txt) required by the pipeline are available in **results** directory (TODO). Parameter file needs to be adjusted based on the user's paths. **Open-Source Deep Docking.ipynb** contains workflow using this example. An example output after one iteration for DD-prepared library (filtered by molecular weight <=360) is available at XXX(TODO). 
 
 The duration of full run (in our case it was 5 iterations, possible to change) depends on available hardware and cluster waiting times and number of molecules docked in each iteration. However, on average it should take around 1-2 weeks (in human terms, not computer time). 
 
