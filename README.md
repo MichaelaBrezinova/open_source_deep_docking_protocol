@@ -3,7 +3,7 @@
 This **open-source deep docking pipeline** is built upon an original Deep Docking pipeline created by Gentile et al. ([original protocol](https://www.nature.com/articles/s41596-021-00659-2)).
 
 ## Instructions
-To see detailed instructions on how to run the protocol, please refer to the [Open-Source Deep Docking.ipynb](Open-Source Deep Docking.ipynb) notebook provided in this repository. These instructions are complementary to the instructions in the [original protocol](https://www.nature.com/articles/s41596-021-00659-2). The optional downstream analysis is described in **clustering_and_downstream_analysis/Clustering_and_downstream_analysis.ipynb**. The instructions are adjusted to use on CSD3 cluster provided by the University of Cambridge, however, can be easily changed to work on any platform. 
+To see detailed instructions on how to run the protocol, please refer to the [Open-Source Deep Docking.ipynb](Open-Source%20Deep%20Docking.ipynb) notebook provided in this repository. These instructions are complementary to the instructions in the [original protocol](https://www.nature.com/articles/s41596-021-00659-2). The optional downstream analysis is described in **p[Clustering_and_downstream_analysis.ipynb](clustering_and_downstream_analysis/Clustering_and_downstream_analysis.ipynb). The instructions are adjusted to use on CSD3 cluster provided by the University of Cambridge, however, can be easily changed to work on any platform. 
 
 ### TL;DR
 
@@ -14,7 +14,7 @@ The pipeline was run on a high-performance computing server of the University of
 
 The protocol was originally run on server nodes using **RHEL 7/8** operating system and SLURM.
 
-**DD_protocol.yml** (main), **DD_protocol_tensor.yml** (for model training, with different version of tensorflow required by A100 GPU units, can be combined with DD_protocol environment or omitted if not needed) and **DD_protocol_py27.yml** (for use of ChemFp 1.x) contain exported environments with dependencies that were used during the run of the pipeline and are referenced in aforementioned jupyter notebooks. 
+[DD_protocol.yml](DD_protocol.yml) (main), [DD_protocol_tensor.yml](DD_protocol_tensor.yml) (for model training, with different version of tensorflow required by A100 GPU units, can be combined with DD_protocol environment or omitted if not needed) and [DD_protocol_py27.yml](DD_protocol_py27.yml) (for use of ChemFp 1.x) contain exported environments with dependencies that were used during the run of the pipeline and are referenced in aforementioned jupyter notebooks. 
 
 The main dependencies are similar to those of the [original protocol](https://www.nature.com/articles/s41596-021-00659-2), 
 * *rdkit*
