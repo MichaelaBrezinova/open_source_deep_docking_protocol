@@ -5,6 +5,8 @@ docking_optimization_experiments/
 testing_conformation_generation_2D_molecules/*
 results/
 !results/abeta/logs.txt
+!results/abeta/receptor.pdbqt
+!results/abeta/conf.txt
 test_print_numbers/
 SDF_docking_checks/
 test.ipynb
