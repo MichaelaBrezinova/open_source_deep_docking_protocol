@@ -25,9 +25,9 @@ The main dependencies are similar to those of the [original protocol](https://gi
 * *matplotlib*
 * *scikit-learn*
 
-Protocol uses [AutoDock Vina](https://vina.scripps.edu/)/[Vina-GPU](https://github.com/DeltaGroupNJUPT/Vina-GPU) and [Open Babel](https://github.com/openbabel/openbabel).
+The protocol uses [AutoDock Vina](https://vina.scripps.edu/)/[Vina-GPU](https://github.com/DeltaGroupNJUPT/Vina-GPU) and [Open Babel](https://github.com/openbabel/openbabel).
 
-For downstream analysis, [chemfp 1.x](https://chemfp.com/), [gaucamol](https://github.com/BenevolentAI/guacamol)  are required as well as installation and use of [DeePred-BBB](https://github.com/12rajnish/DeePred-BBB), [FRED](https://docs.eyesopen.com/applications/oedocking/fred/fred.html#chapter-fred). Chemfp 1.x supports only Python 2.7, hence to use it, an environment with Python 2.7 has to be used (e.g. DD_protocol_py27.yml). These are, however, optional if user wants to omit or adjust these steps. 
+For downstream analysis, [chemfp 1.x](https://chemfp.com/), [gaucamol](https://github.com/BenevolentAI/guacamol)  are required as well as installation and use of [DeePred-BBB](https://github.com/12rajnish/DeePred-BBB) and [FRED](https://docs.eyesopen.com/applications/oedocking/fred/fred.html#chapter-fred). Chemfp 1.x supports only Python 2.7, hence to use it, an environment with Python 2.7 has to be used (e.g. DD_protocol_py27.yml). These are, however, optional if user wants to omit or adjust these steps. 
 
 The installation times for all these tools are standard ( <5 mins).
 
@@ -36,9 +36,9 @@ The installation times for all these tools are standard ( <5 mins).
 DD-prepared version (provided with the [original protocol](https://github.com/jamesgleave/DD_protocol)) of the ZINC20 library (as available in March 2021) is available at https://files.docking.org/zinc20-ML/.
 
 #### Example
-An example target receptor (receptor.pdbqt) with configuration file (conf.txt) required by Vina and parameter file [logs.txt](results/abeta/logs.txt) required by the pipeline are available in **results** directory (TODO). Parameter file needs to be adjusted based on the user's paths. [Open-Source Deep Docking.ipynb](Open-Source%20Deep%20Docking.ipynb) contains workflow using this example. An example output after one iteration for DD-prepared library (filtered by molecular weight <=360) is available at XXX(TODO). Example provided with the [original protocol](https://github.com/jamesgleave/DD_protocol) can also be relevant.
+An example target receptor [receptor.pdbqt](results/abeta/receptor.pdbqt) with configuration file [conf.txt](results/abeta/conf.txt) required by Vina and parameter file [logs.txt](results/abeta/logs.txt) required by the pipeline are available in the **results** directory. Parameter file needs to be adjusted based on the user's paths. [Open-Source Deep Docking.ipynb](Open-Source%20Deep%20Docking.ipynb) contains workflow using this example. An example output after one iteration (iteration 5 from our run) for DD-prepared library (filtered by molecular weight <=360) is available [here](https://doi.org/10.6084/m9.figshare.25928428). Example provided with the [original protocol](https://github.com/jamesgleave/DD_protocol) can also be relevant.
 
-The duration of full run (in our case it was 5 iterations, possible to change) depends on available hardware and cluster waiting times and number of molecules docked in each iteration. However, on average it should take around 1-2 weeks (in human terms, not computer time). 
+The duration of a full run (in our case it was 5 iterations, possible to change) depends on available hardware, cluster waiting times and number of molecules docked in each iteration. However, on average it should take around 1-2 weeks (in human terms, not computer time). 
 
 ## Citation
 To cite the original papers by Gentile et al., please use:
