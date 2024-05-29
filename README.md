@@ -3,7 +3,7 @@
 This **open-source deep docking pipeline** is built upon an original Deep Docking pipeline created by Gentile et al. ([original paper](https://www.nature.com/articles/s41596-021-00659-2)).
 
 ## Instructions
-To see detailed instructions on how to run the protocol, please refer to the [Open-Source Deep Docking.ipynb](Open-Source%20Deep%20Docking.ipynb) notebook provided in this repository. These instructions are complementary to the instructions in the [original paper](https://www.nature.com/articles/s41596-021-00659-2). The optional downstream analysis is described in [Clustering_and_downstream_analysis.ipynb](clustering_and_downstream_analysis/Clustering_and_downstream_analysis.ipynb). The instructions are adjusted to use on CSD3 cluster provided by the University of Cambridge, however, can be easily changed to work on any platform. 
+To see detailed instructions on how to run the protocol, please refer to the [Open-Source Deep Docking.ipynb](Open-Source%20Deep%20Docking.ipynb) notebook provided in this repository. These instructions are complementary to the instructions in the [original protocol](https://github.com/jamesgleave/DD_protocol). The optional downstream analysis is described in [Clustering_and_downstream_analysis.ipynb](clustering_and_downstream_analysis/Clustering_and_downstream_analysis.ipynb). The instructions are adjusted to use on CSD3 cluster provided by the University of Cambridge, however, can be easily changed to work on any platform. 
 
 ### TL;DR
 
