@@ -70,7 +70,7 @@ with open(args.file) as file:
             else:
                 print("Faulty SMILES encountered, trying to get smile from ZINC15")
                 
-                # Comment when you want to try with alternative ZNIC file
+                # Comment when you want to try with alternative ZINC file
                 filtered_lines.append(zinc_smile + " " + zinc_id)
                 
 #                 # Uncomment when you want to try with alternative ZINC file
