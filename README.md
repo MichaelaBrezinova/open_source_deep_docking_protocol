@@ -14,7 +14,7 @@ The pipeline was run on a high-performance computing server of the University of
 
 The protocol was originally run on server nodes using **RHEL 7/8** operating system and SLURM.
 
-[DD_protocol.yml](DD_protocol.yml) (main), [DD_protocol_tensor.yml](DD_protocol_tensor.yml) (for model training, with different version of tensorflow required by A100 GPU units, can be combined with DD_protocol environment or omitted if not needed) and [DD_protocol_py27.yml](DD_protocol_py27.yml) (for use of ChemFp 1.x) contain exported environments with dependencies that were used during the run of the pipeline and are referenced in aforementioned jupyter notebooks. 
+[DD_protocol.yml](DD_protocol.yml) (main), [DD_protocol_tensor.yml](DD_protocol_tensor.yml) (for model training, with different version of tensorflow required by A100 GPU units, can be combined with DD_protocol environment or omitted if not needed) and [DD_protocol_py27.yml](DD_protocol_py27.yml) (for use of ChemFp 1.x) contain our exported environments with dependencies that were used during the run of the pipeline and are referenced in aforementioned jupyter notebooks. 
 
 The main dependencies are similar to those of the [original protocol](https://github.com/jamesgleave/DD_protocol), 
 * *rdkit*
