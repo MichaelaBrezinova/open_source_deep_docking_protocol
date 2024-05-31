@@ -3,12 +3,21 @@
 This **open-source deep docking pipeline** is built upon an original Deep Docking pipeline created by Gentile et al. ([original paper](https://www.nature.com/articles/s41596-021-00659-2)).
 
 ## Instructions
+
 To see detailed instructions on how to run the protocol, please refer to the [Open-Source Deep Docking.ipynb](Open-Source%20Deep%20Docking.ipynb) notebook provided in this repository. These instructions are complementary to the instructions in the [original protocol](https://github.com/jamesgleave/DD_protocol). The optional downstream analysis is described in [Clustering_and_downstream_analysis.ipynb](clustering_and_downstream_analysis/Clustering_and_downstream_analysis.ipynb). The instructions are adjusted to use on CSD3 cluster provided by the University of Cambridge, however, can be easily changed to work on any platform. 
 
 ### TL;DR
 
 #### Hardware
 The pipeline was run on a high-performance computing server of the University of Cambridge (CSD3), however, it can be easily run on any server with sufficient resources. This server provides $\geq$ 1 TB of allocated space and **access to CPU cores** as well as NVIDIA A100-SXM-80GB **GPU cores**. Hardware requirements for the pipeline are detailed more in the [original protocol](https://github.com/jamesgleave/DD_protocol). However, the full library of SMILES and Morgan fingerprints has a size of around **267GB**, hence this amount of disk space is recommended, along with additional space for intermediate files and results. 
+
+#### Installation
+To use this protocol, please download the repository or clone it, for example using 
+```
+git clone https://github.com/MichaelaBrezinova/open_source_deep_docking_protocol.git
+```
+
+This should under 1 minute. 
 
 #### Dependencies
 
@@ -33,7 +42,7 @@ The installation times for all these tools are standard ( <5 mins). Some package
 
 #### Data
 
-DD-prepared version (provided with the [original protocol](https://github.com/jamesgleave/DD_protocol)) of the ZINC20 library (as available in March 2021) is available at https://files.docking.org/zinc20-ML/. This data can be further filtered and subsampled per user's needs. An example subset of the library with 10 million compounds is available here https://doi.org/10.6084/m9.figshare.25934092, however, it is advised to use a (much) larger set for the protocol (or if not much larger then well curated).
+DD-prepared version (provided with the [original protocol](https://github.com/jamesgleave/DD_protocol)) of the ZINC20 library (as available in March 2021) is available at https://files.docking.org/zinc20-ML/. This data can be further filtered and subsampled per user's needs. An example subset of the library with 10 million compounds is available here https://doi.org/10.6084/m9.figshare.25934092, however, it is advised to use a (much) larger set for the protocol (or if not much larger then well curated) to get good results.
 
 #### Example
 An example target receptor [receptor.pdbqt](results/abeta/receptor.pdbqt) with configuration file [conf.txt](results/abeta/conf.txt) required by Vina and parameter file [logs.txt](results/abeta/logs.txt) required by the pipeline are available in the **results** directory. Parameter file needs to be adjusted based on the user's paths. [Open-Source Deep Docking.ipynb](Open-Source%20Deep%20Docking.ipynb) contains workflow using this example. An example output after one iteration (iteration 5 from our run) for DD-prepared library (filtered by molecular weight <=360 and prepared by our scripts) is available at https://doi.org/10.6084/m9.figshare.25928428. Individual SDF/PDBQT files for docking of the downloaded compounds are not present, however, can be easily generated from bulk downloaded SDFs that are included. Example provided with the [original protocol](https://github.com/jamesgleave/DD_protocol) can also be relevant.
