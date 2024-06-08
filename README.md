@@ -17,7 +17,7 @@ To use this protocol, please download the repository or clone it, for example us
 git clone https://github.com/MichaelaBrezinova/open_source_deep_docking_protocol.git
 ```
 
-This should under 1 minute. 
+This should take under 1 minute. 
 
 #### Dependencies
 
