@@ -23,7 +23,7 @@ do
         filename="${full_filename%.*}"
 
         # Run obabel to convert to right format for docking
-        $obabel_path -isdf "$f" -opdbqt -O "${filename}.pdbqt"
+        $obabel_path -isdf "$f" -opdbqt -O "${filename}.pdbqt" -p 7.4
 
         # Comment if you want to keep the original SDF file after converting to pdbqt
         rm "$f"

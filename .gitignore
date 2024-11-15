@@ -54,3 +54,7 @@ vina_docking_adapalene_thioflavin/*
 plots_pipeline_nmol_and_roc_tensor/*
 test_extract_scores_vina.ipynb
 test_extract_scores_vina/*
+enrichments/*
+!enrichments/enrichments_over_iterations_alternative.pdf
+non_code_results_for_paper.ipynb
+non_code_results_for_paper.py
