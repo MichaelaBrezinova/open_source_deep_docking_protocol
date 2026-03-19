@@ -2,6 +2,8 @@
 
 This **open-source deep docking pipeline** is built upon an original Deep Docking pipeline created by Gentile et al. ([original paper](https://www.nature.com/articles/s41596-021-00659-2)).
 
+<img width="2916" height="1009" alt="Figure_7" src="https://github.com/user-attachments/assets/1f196f60-bc64-489e-ab31-8c6ac7fa68cf" />
+
 ## Instructions
 
 To see detailed instructions on how to run the protocol, please refer to the [Open-Source Deep Docking.ipynb](Open-Source%20Deep%20Docking.ipynb) notebook provided in this repository. These instructions are complementary to the instructions in the [original protocol](https://github.com/jamesgleave/DD_protocol). The optional downstream analysis is described in [Clustering_and_downstream_analysis.ipynb](clustering_and_downstream_analysis/Clustering_and_downstream_analysis.ipynb). The instructions are adjusted to use on CSD3 cluster provided by the University of Cambridge, however, can be easily changed to work on any platform. 
@@ -50,9 +52,18 @@ An example target receptor [receptor.pdbqt](results/abeta/receptor.pdbqt) with c
 The duration of a full run (in our case it was 5 iterations, possible to change) depends on available hardware, cluster waiting times and number of molecules docked in each iteration. However, on average it should take around 1-2 weeks (in human terms, not computer time). 
 
 ## Citation
-To cite the original papers by Gentile et al., please use:
+To cite this work, please cite:
 
 ```bibtex
+@article{brezinova2025identification,
+  title={Identification of potent high-affinity secondary nucleation inhibitors of A$\beta$42 aggregation from an ultra-large chemical library using deep docking},
+  author={Brezinova, Michaela and Brotzakis, Z Faidon and Horne, Robert I and Chowdhury, Vaidehi Roy and Gregory, Rebecca C and Bian, Yuqi and D{\'\i}az, Alicia Gonz{\'a}lez and Gentile, Francesco and Vendruscolo, Michele},
+  journal={Molecular Systems Biology},
+  volume={22},
+  number={1},
+  pages={69},
+  year={2025}
+}
 @article{gentile2020deep,
   title={Deep docking: a deep learning platform for augmentation of structure based drug discovery},
   author={Gentile, Francesco and Agrawal, Vibudh and Hsing, Michael and Ton, Anh-Tien and Ban, Fuqiang and Norinder, Ulf and Gleave, Martin E and Cherkasov, Artem},
